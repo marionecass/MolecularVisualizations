@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+    <title>Delta Ligand Conformation</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Coen3againd2.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1; draw plane1 5.0 (atomno=10) (atomno=1) (atomno=15) translucent 0.7 magenta off")
+</script> <br />
+	</td>
+
+ <td> 
+	<td>
+	  <h2>F. Metal Tris Chelates with Non-Planar Ligands that can have &lambda; or &delta; Ligand Conformations<br />
+1.  What is a &lambda; or a &delta; Ligand Conformation?  b.  &delta; </h2><br />
+
+Another isomer of the Co(H<sub>2</sub>NCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)<sub>3</sub><sup>3+</sup> ion is shown to your left. <a href="MTC-MI-B1js.html">  More Info / Ref </a><br />
+
+Potentially useful viewing commands:
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("select atomno=16; label N*; color label lime"
+		, "select atomno=16; label off"
+		,"Follow one N atom")
+</script><br />
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script>
+
+<script>
+jmolButton("select all; color cpk"
+		,"Reset Colors")
+</script><br />
+
+
+<br />
+To Observe the Twist:
+<script>
+jmolButton("reset; center atomno=1; delay 1; move 0 88 0 0 0 0 0 0 2; delay 1; move -3 0 30 0 0 0 0 0 2"
+		,"View down one of the C2 axis")
+</script>
+
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, Confirm that you have a C2 Rotation")
+</script> <br />
+
+<script>
+jmolButton("select atomno=13; color red; select atomno=14; color red; delay 0.5; select all; color cpk; delay 0.5; select atomno=13; color red; select atomno=14; color red; delay 0.5; select all; color cpk; delay 0.5; select atomno=13; color red; select atomno=14; color red"
+		,"Notice the positions of the C atoms in the front ligand (red)")
+</script>
+
+<script>
+jmolButton("select atomno=1; color magenta; select atomno=15; color magenta; select atomno=10; color magenta; delay 0.5; select atomno=1; color cpk; select atomno=15; color cpk; select atomno=10; color cpk; delay 0.5; select atomno=1; color magenta; select atomno=15; color magenta; select atomno=10; color magenta; delay 0.5; select atomno=1; color cpk; select atomno=15; color cpk; select atomno=10; color cpk; delay 0.5; select atomno=1; color magenta; select atomno=15; color magenta; select atomno=10; color magenta"
+		,"Relative to the N-M-N plane for the Same Ligand (magenta)")
+</script> 
+<script>
+jmolButton("draw plane1 on"
+		,"View the N-M-N plane")
+</script> <br />
+<br />
+
+<img src="d-ligand.gif"><br />
+Why is it called a &delta; conformation? <br />
+<img src="d-ligand-twist.gif">
+<br />
+	</td>
+		
+      </tr>
+    </table>
+<a href="Index-MTC.html"> Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+  </body>
+</html>

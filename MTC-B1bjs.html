@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+    
+    <title>Symmetry C2</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolInitialize(".")
+jmolApplet(300,"load 13L-lll.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+<img src="C2.gif">
+	</td>
+
+ <td> 
+	<td>
+	  <h2>B.  The Symmetry Properties of Metal Tris Chelates<br />
+1. With Symmetrical Chelating Ligands:  Molecules of D<sub>3</sub> Symmetry<br />
+b.  The C<sub>2</sub> Operations </h2><br />
+ Continuing with our example of one of the isomers of the Co(H<sub>2</sub>NCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)<sub>3</sub><sup>3+</sup> ion<br />
+ 
+(Remember that this molecular ion has D<sub>3</sub> symmetry and the following symmetry operations:<br />
+E, C<sub>3</sub>, C<sub>3</sub><sup>2</sup>, and 3 C<sub>2</sub>'s )<br />
+a.  <a href="MTC-B1ajs.html">The C<sub>3</sub> operations are presented on the previous page</a><br />
+
+b. Now we will animate one of the C<sub>2</sub> Operations (and leave you to find the other two!) <br /><br />
+Useful commands for viewing the operations: <br />
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		,"select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("select atomno=7; label N(b); color label lime"
+		,"select atomno=7; label off"
+		, "Follow N(b)")
+</script>
+
+<script>
+jmolCheckbox("select atomno=4; label N(c); color label red"
+		, "select atomno=4; label off"
+		, "Follow N(c)")
+</script>
+
+<script>
+jmolCheckbox("select atomno=3; label N(d); color label magenta"
+		, "select atomno=3; label off"
+		, "Follow N(d)")
+</script><br />
+
+
+<script">
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script><br />
+
+
+<br />
+<br />
+Animation of one of the C<sub>2</sub> Operations:<br />
+1. First, let us position the molecule to view down the C<sub>2</sub> axis
+<script>
+jmolButton("reset; center atomno=1; delay 1; move -38 0 5 0 0 0 0 0 2; delay 1; move 0 -88 0 0 0 0 0 0 1; delay 0.1; move 0 0 4 0 0 0 0 0 1"
+		,"Reset to view down one C2 axis")
+</script> <br />
+
+2.  Without Resetting, Execute a C<sub>2</sub>
+
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without Resetting, Execute a C2")
+</script><br />
+
+3.  We leave it up to you to locate the other two C<sub>2</sub> axes/rotations <br />
+(Hint; position the molecule along a C<sub>2</sub> axis with your mouse and use the "Without Resetting, Execute a C<sub>2</sub>" button)<br /><a href="Index.html">Return to Index</a>
+	</td>
+	
+      </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

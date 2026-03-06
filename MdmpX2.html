@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+
+
+</style>
+</head>
+ <title>NidmpI2-PtdmpI2</title>
+
+
+  <body>
+ <h2>X-ray Crystal Structures of Ni(dmp)I<sub>2</sub> and Pt(dmp)I<sub>2</sub></h2>
+
+
+    <table border="1">
+      <tr><td>
+      <h3>The dmp ligand</h3>
+      
+      <img src="dmp.gif" WIDTH=150 HEIGHT=100> <br /><br />
+    
+    dmp = 2,9 - dimethyl-1,10-phenanthroline
+    
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />  
+      </td>
+      <td>
+      
+<script type="text/javascript">
+jmolApplet(400,"load DMPLNIwHydrogens.pdb; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=3; select atomno=25; color pink; select atomno=26; color pink; select atomno=27; color pink; select atomno=28; color pink; select atomno=29; color pink; select atomno=30; color pink; select atomno=31; color pink;")
+</script> <br />
+<strong> With Ni(II)</strong>:  Ni(dmp)I<sub>2</sub><br />
+
+
+<small>Note: some Hydrogens were not located in the x-ray crystal structure determination<br />
+and have been added computationally and are shown in pink</small><br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off; select carbon; spacefill 0.0; Set bondmode or; Select carbon; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "View only the Metal and Coordinated Atoms");
+</script><br />
+<script>
+jmolButton("reset", "View 1");
+</script>
+<script>
+jmolButton("reset; move 0 45 0 0 0 0 0 0 1; move 0 0 95 0 0 0 0 0 1", "View 2");
+</script><br /><br />
+<font color = "#CC0000"><strong>Give a name for the coordination geometry about the Ni(II) metal center</font></strong><br /><br />
+
+
+<small>Reference: CCDC Code DMPLNI<br /> 
+R. J. Butcher, C. J. O'Connor, E. Sinn, <br />
+<i>Inorg. Chem.</i>, Vol 18, p. 492, <b>1979</b></small>
+
+
+</td>
+      <td>
+      
+<script>
+jmolApplet(400,"load ZEWXUUViewA.pdb; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=2")
+</script> <br />
+<strong> With Pt(II)</strong> Pt(dmp)I<sub>2</sub><br /><br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off; select carbon; spacefill 0.0; Set bondmode or; Select carbon; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "View only the Metal and Coordinated Atoms");
+</script><br />
+<script>
+jmolButton("reset", "View 1");
+</script>
+<script>
+jmolButton("reset; move 0 55 0 0 0 0 0 0 1; move -22 0 0 0 0 0 0 0 1; move 0 0 13 0 0 0 0 0 1", "View 2");
+</script>
+<br /><br />
+<font color = "#CC0000"><strong>Give a name for the coordination geometry about the Pt(II) metal center</font></strong><br /><br />
+
+
+<small>Reference: CCDC Code ZEWXUU<br />
+R. J. H. Clark, F. P. Fanizzi, G. Natile, C. Pacifico, <br />
+C. G. van Rooyen, D. A. Tocher,<br />
+<i>Inorg. Chim. Acta</i>, Vol 235, p 205, <b>1995</b></small>
+
+</td>
+</tr>
+
+    </table>
+  <p><small>  Resources developed by Marion E. Cass, Carleton College 2015, modified in 2025;  <font color = "#CC0000"><strong>Questions for students in red font</font></strong></small></p>
+  </body>
+</html>

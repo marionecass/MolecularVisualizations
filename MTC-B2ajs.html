@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+    
+   <title> Symmetry C3 with Asymetrical Ligands</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load 10GW98.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=2")
+</script> 
+	</td>
+
+ <td> 
+	<td>
+	  <h2>B. The Symmetry Properties of Metal Tris Chelates<br />
+2. With Asymmetrical Chelating Ligands:  Molecules of C<sub>3</sub> Symmetry<br />
+a.  The C<sub>3</sub> Operations</h2><br />
+Example with one isomer of the Co(O-CH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)<sub>3</sub> Molecule<a href="MTC-MI-B2ajs.html">  More Information </a><br /> 
+ 
+Unlike in our last example, this molecule contains three ligands that are asymmetrical (rather than three symmetrical ligands) and 
+therefore will have lower symmetry. <br />
+This molecule has C<sub>3</sub> symmetry and ONLY the following THREE symmetry operations:<br />
+E, C<sub>3</sub> and C<sub>3</sub><sup>2</sup><br />
+Because we have asymmetrical ligands, we no longer have the three C<sub>2</sub> operations <br />
+Spin for a better look! (or use your mouse)
+
+<script>
+jmolCheckbox("spin on"
+		,"spin off"
+		, "Spin")
+</script>
+
+<br />
+
+
+Below we show the C<sub>3</sub> Operations <br />
+Useful commands for viewing the operations: <br />
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		,"select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script>
+
+<script>
+jmolCheckbox("select atomno=1; label O(a); color label lime"
+		,"select atomno=1; label off"
+		, "Follow Oxygen(a) atom")
+</script> OR
+<script>
+jmolCheckbox("select atomno=3; label O(b); color label magenta"
+		,"select atomno=3; label off"
+		, "Follow Oxygen(b)")
+</script><br />
+
+
+<script>
+jmolButton("spin off; reset; center atomno=2"
+		,"Reset Orientation")
+</script>
+
+<br />
+<br />
+Animation of the C<sub>3</sub> Operations:<br />
+1.  The C<sub>3</sub>
+<script>
+jmolButton("reset; center atomno=2; select atomno=31; label Reset (if needed); color label black; delay 1; select atomno=31; label off; delay 0.5; select atomno=31; label Execute C3; color label black; delay 0.5; select atomno=31; label off; move 0 0 -120 0 0 0 0 0 2"
+		,"Reset (if needed) then Execute a C3")
+</script> <br />
+
+2.  The C<sub>3</sub><sup>2</sup>
+<script>
+jmolButton("reset; center atomno=2; select atomno=31; label Reset (if needed); color label black; delay 1; select atomno=31; label off; delay 0.5; select atomno=31; label Execute 1st C3; color label black; delay 0.5; select atomno=31; label off; move 0 0 -120 0 0 0 0 0 2; delay 0.3; select atomno=23; label Execute 2nd C3; color label black; delay 0.5; select atomno=23; label off; move 0 0 -120 0 0 0 0 0 2"
+		,"Reset (if needed) delay, Execute a C3, delay, Execute a C3")
+</script> <br />
+
+3.  The The C<sub>3</sub><sup>3</sup> = E
+<script>
+jmolButton("reset; center atomno=2; select atomno=31; label Reset (if needed); color label black; delay 1; select atomno=31; label off; delay 0.5; select atomno=31; label Execute 1st C3; color label black; delay 0.5; select atomno=31; label off; move 0 0 -120 0 0 0 0 0 2; delay 0.3; select atomno=23; label Execute 2nd C3; color label black; delay 0.5; select atomno=23; label off; move 0 0 -120 0 0 0 0 0 2; delay 0.5; select atomno=27; label Execute 3rd C3; color label black; delay 0.5; select atomno=27; label off; delay 0.3; move 0 0 -120 0 0 0 0 0 2"
+		,"Reset (if needed), delay, Execute a C3, delay, Execute a C3, delay, Execute a C3")
+</script><br />
+
+Notice the C<sub>3</sub><sup>3</sup> is the same as the identity (E) and is therefore not unique and is therefore NOT listed as a symmetry operation for this molecule.
+	  	<br />
+	  	<br />
+
+Finally, to show that this molecule DOES NOT have a C<sub>2</sub> axis: <br />
+
+<script>
+jmolButton("reset; center atomno=2; delay 0.3; move 0 102 0 0 0 0 0 0 2; delay 0.2; move -3 0 -30 0 0 0 0 0 1; delay 0.2; move -15 0 0 0 0 0 0 0 1"
+		,"Attempt to locate a C2 axis")
+</script> 
+
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without Resetting, Test for a C2")
+</script><br />
+Notice that this 180<sup>o</sup> rotation interchanges the red (oxygen) and blue (nitrogen) atoms; therefore C<sub>2</sub> is NOT a symmetry operation for this molecule.
+	</td>
+	
+      </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

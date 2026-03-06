@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+   <title>Example of a Research Application: J.Barton (2)</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(600,"load 454D.pdb; center atomno=1710; select all; labels off; spacefill 0.0; wireframe 0.075; zoom 200")
+</script> 
+	</td>
+
+ <td> 
+<h2>D.  Research Applications:</h2>
+<h3> 1.  Recognition of DNA structure using chiral metal chelates:<br />
+Research by Jacqueline K. Barton and Douglas C. Rees,  <br />
+California Institute of Technology</h3>
+
+
+<h4>b.  The Crystal Structure of two oligomers of B-DNA with five intercalated molecules 
+of &Delta;-&alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup> is shown on your left.</h4>
+
+
+
+Viewing tools:
+
+<script>
+jmolCheckbox("spin on"
+		, "spin off"
+		, "Spin")
+</script> <br />
+
+
+
+<script>
+jmolCheckbox("select RHM; color lime"
+		,"select RHM; color cpk"
+		, "Color Intercalated Rh Complexes Lime Green")
+</script>
+
+
+<br />
+<script>
+jmolButton("spin off; reset; center atomno=1710; zoom 200"
+		,"Reset Orientation")
+</script><br />
+<br />
+
+<script>
+jmolButton("reset; center atomno=1710; select RHM 82; spacefill 0.25; select RHM 82; wireframe 0.1; move 0 0 0 1500 0 0 0 0 1"
+		,"Zoom in on and Highlight on one Rh Complex")
+</script> <br />
+
+
+<script>
+jmolButton("reset; center atomno=1716; select RHM 82; spacefill 0.25; select RHM 82; wireframe 0.1; zoom 1200; move 0 45 0 0 0 0 0 0 1; move 140 0 0 0 0 0 0 0 1"
+		,"View 1 to illustrate the intercalation of the phi ligand")
+</script> <br />
+
+<script>
+jmolButton("reset; center atomno=1710; select RHM 82; spacefill 0.25; select RHM 82; wireframe 0.1; zoom 1200; move 60 0 0 0 0 0 0 0 1; move 0 0 -40 0 0 0 0 0 1; move 0 30 0 0 0 0 0 0 1"
+		,"View 2 of the intercalated metal complex to illustrated the handed nature of the interaction")
+</script> <br /><br />
+Intercalation is stereoselective (for the &Delta;-Isomer), sequence specific (5'-TG(intercalator)CA-3') and regioselective (for the major groove of B-DNA).<br />
+<br />
+
+C. L. Kielkopf, K. E. Erkkila, B. P. Hudson, J. K. Barton, D. C. Rees, <i>Nature Structural Biology</i> Vol 7., No. 2., <b>2000</b> p. 117-121. <a href="http://dx.doi.org/10.1038/72385">DOI</a>
+<br />
+<a href="MTC-D1ajs.html">Structure of &Lambda;-&alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup> and &Delta;-&alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup></a><br />
+	</td>
+
+	
+      </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+      <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+    
+  </body>
+</html>

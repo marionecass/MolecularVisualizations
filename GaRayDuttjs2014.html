@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Gamda3 Ray-Dutt</title>
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+  </head>
+  <body>
+  <h2>G. Mechanisms that can Racemize &Lambda; and &Delta; Metal Tris Chelates<br />
+ Non-dissociative Mechanisms: b. The R&acirc;y-Dutt Mechanism for GaL<sub>3</sub> (L = mda)</h2>
+    <table border="1">
+<td>
+<script>
+jmolApplet(320,"load GaRayDutt.xyz; select all; labels off; frame 5; vectors off; spacefill 0.25; wireframe 0.1; select neon; spacefill 0.0; Set bondmode or; Select neon; wireframe off; draw plane1 2.0 (atomno=26) (atomno=27) (atomno=28) translucent 0.7 blue off; draw plane2 2.0 (atomno=24) (atomno=21) (atomno=23) translucent 0.7 yellow off; draw plane3 2.0 (atomno=25) (atomno=21) (atomno=23) translucent 0.7 yellow off; draw plane4 2.0 (atomno=24) (atomno=21) (atomno=22) translucent 0.7 yellow off; move -90 0 0 0 0 0 0 0 1")
+</script> <br />
+ <table border ="1">       
+<td  valign="top"><span class="c6"><strong> &Lambda;-GaL<sub>3</sub></strong></span><br />
+
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolButton("reset; frame 5; move -90 0 0 0 0 0 0 0 1"
+		,"Reset position")
+</script><br />
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.50; select atomno=3; spacefill 0.50; select atomno=4; spacefill 0.50"
+		, "select atomno=2; spacefill 0.25; select atomno=3; spacefill 0.25; select atomno=4; spacefill 0.25"
+		,"Enlarge O Atoms on C3 face")
+</script><br />
+
+
+<br />
+<script>
+jmolCheckbox("select atomno=24; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=24; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create Isomer 1")
+</script>
+<script>
+jmolCheckbox("draw plane2 on"
+		, "draw plane2 off"
+		, "Is it facial or meridional?")
+</script><br />
+
+<script>
+jmolCheckbox("select atomno=25; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=25; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create Isomer 2")
+</script>
+<script>
+jmolCheckbox("draw plane3 on"
+		, "draw plane3 off"
+		, "Is it facial or meridional?")
+</script><br />
+<script>
+jmolCheckbox("select atomno=24; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=22; spacefill 0.35; color yellow"
+		, "select atomno=24; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=22; spacefill 0.25; color cpk"
+		,"Create Isomer 3")
+</script>
+<script>
+jmolCheckbox("draw plane4 on"
+		, "draw plane off"
+		, "Is it facial or meridional?")
+</script>
+<br />
+</td></table></td>
+
+
+<td>
+<script>
+jmolApplet(350,"load GaRayDutt.xyz; select all; labels off; frame 1; vectors off; spacefill 0.25; wireframe 0.1; select neon; spacefill 0.0; Set bondmode or; Select neon; wireframe off; move -90 0 0 0 0 0 0 0 1")
+</script> <br />
+ <table border ="1"> 
+    <td  valign="top"><span class="c6"><strong>Calc C<sub>2v</sub> TS for the R&acirc;y-Dutt</strong></span><br />
+    
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hs");
+</script>
+
+
+<script>
+jmolButton("reset; frame 1; move -90 0 0 0 0 0 0 0 1"
+		,"Reset position")
+</script><br />
+
+
+<script>
+jmolCheckbox("select carbon; spacefill 0.0; Set bondmode or; select carbon; wireframe off; select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Cs and Hs")
+</script>
+
+
+
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.50; select atomno=3; spacefill 0.50; select atomno=4; spacefill 0.50"
+		, "select atomno=2; spacefill 0.25; select atomno=3; spacefill 0.25; select atomno=4; spacefill 0.25"
+		,"Enlarge same O Atoms")
+</script><br />
+
+
+          <table border="1">
+          <td>
+          <strong>Viewing the R&acirc;y-Dutt Mechanism</strong>
+<ol><li>
+<script>
+jmolCheckbox("frame 1; vibration on"
+		,"vibration off"
+		,"Vibration On")
+</script>
+<script>
+jmolCheckbox("select all; vectors on; vector scale 3.0; color vectors yellow"
+		, "vectors off"
+		,"Vectors on")
+</script></li>
+<li><script>
+jmolButton("vibration off; frame 5"
+		,"Set to Max Displacement (a)")</script>
+            <span class="c1"><strong>Compare to &Lambda;</strong></span></li>
+
+<li><script>
+jmolButton("select all; vibration off; frame 6; delay 0.2; frame 7; delay 0.2; frame 8; delay 0.2; frame 9; delay 0.2; frame 10; delay 0.2; frame 11; delay 0.2; frame 12; delay 0.2; frame 13; delay 0.2; frame 15"
+		,"Displace Max (a) to Max (b)")</script>
+             <span class="c1"><strong>Compare to &Delta;</strong></span></li></ol>
+<font color = "#CC0000"><strong>Test each isomer before and after one R&acirc;y-Dutt:</strong></font><br />
+<script>
+jmolCheckbox("select atomno=24; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=24; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create Isomer 1");
+</script>
+<script>
+jmolCheckbox("draw plane2 2.0 (atomno=24) (atomno=21) (atomno=23) translucent 0.7 yellow on"
+		, "draw plane2 off"
+		, "Is it facial or meridional?");
+</script><br />
+
+<script>
+jmolCheckbox("select atomno=25; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=25; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create Isomer 2")
+</script>
+<script>
+jmolCheckbox("draw plane3 2.0 (atomno=25) (atomno=21) (atomno=23) translucent 0.7 yellow on"
+		, "draw plane3 off"
+		, "Is it facial or meridional?")
+</script><br />
+<script>
+jmolCheckbox("select atomno=24; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=22; spacefill 0.35; color yellow"
+		, "select atomno=24; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=22; spacefill 0.25; color cpk"
+		,"Create Isomer 3")
+</script>
+<script>
+jmolCheckbox("draw plane4 2.0 (atomno=24) (atomno=21) (atomno=22) translucent 0.7 yellow on"
+		, "draw plane off"
+		, "Is it facial or meridional?")
+</script>
+</td>
+</table>
+    </table>
+</td>
+
+<td>
+<script>
+jmolApplet(320,"load GaRayDutt.xyz; select all; labels off; frame 15; vectors off; spacefill 0.25; wireframe 0.1; select neon; spacefill 0.0; Set bondmode or; Select neon; wireframe off; draw plane1 2.0 (atomno=26) (atomno=27) (atomno=28) translucent 0.7 blue off; draw plane2 2.0 (atomno=24) (atomno=21) (atomno=23) translucent 0.7 yellow off; draw plane3 2.0 (atomno=25) (atomno=21) (atomno=23) translucent 0.7 yellow off; draw plane4 2.0 (atomno=24) (atomno=21) (atomno=22) translucent 0.7 yellow off; move -90 0 0 0 0 0 0 0 1")
+</script> <br />
+ <table border ="1">       
+<td  valign="top"><span class="c6"><strong> &Delta;-GaL<sub>3</sub></strong></span><br />
+
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolButton("reset; frame 15; move -90 0 0 0 0 0 0 0 1"
+		,"Reset position")
+</script><br />
+
+
+
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.50; select atomno=3; spacefill 0.50; select atomno=4; spacefill 0.50"
+		, "select atomno=2; spacefill 0.25; select atomno=3; spacefill 0.25; select atomno=4; spacefill 0.25"
+		,"Enlarge O Atoms that WERE on the C3 face")
+</script><br />
+
+
+
+
+
+<br />
+<br />
+<script>
+jmolCheckbox("select atomno=24; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=24; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create Isomer 1")
+</script>
+<script>
+jmolCheckbox("draw plane2 on"
+		, "draw plane2 off"
+		, "Is it facial or meridional?")
+</script><br />
+
+<script>
+jmolCheckbox("select atomno=25; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=25; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create Isomer 2")
+</script>
+<script>
+jmolCheckbox("draw plane3 on"
+		, "draw plane3 off"
+		, "Is it facial or meridional?")
+</script><br />
+<script>
+jmolCheckbox("select atomno=24; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=22; spacefill 0.35; color yellow"
+		, "select atomno=24; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=22; spacefill 0.25; color cpk"
+		,"Create Isomer 3")
+</script>
+<script>
+jmolCheckbox("draw plane4 on"
+		, "draw plane off"
+		, "Is it facial or meridional?")
+</script>
+<br />
+<font color = "#CC0000"><strong>State whether facial and meridional isomers can, cannot or must be interchanged by a R&acirc;y-Dutt Twisting motion</strong></font> 
+<br />
+
+
+</td></table>
+<a href="MTC-MI-G1bjs.html">For Information on our GaL<sub>3</sub> Complex<br />
+and on our Computational Model</a><br />
+</td>
+
+</tr>
+</table>
+<a href="Index-MTC.html">Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2014 and in 2025 
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+
+
+  </body>
+</html>

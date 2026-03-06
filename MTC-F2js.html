@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+  
+    <title>Contrasting Lambda and Delta Isomers of Co(en)3</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load 13L-lll.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+	</td>
+
+ <td> 
+	<td>
+	  <h2>F.  Metal Tris Chelates Containing Ligands that can have &lambda; / &delta; Ligand Twists<br />
+2.  The &Lambda;-&lambda;&lambda;&lambda; and &Delta;-&delta;&delta;&delta; Enantiomers of [Co(H<sub>2</sub>NCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)<sub>3</sub>]<sup>3+</sup></h2>
+ 
+The Top Molecule is the &Lambda;-&lambda;&lambda;&lambda; -Isomer <br />
+
+Potentially useful viewing commands:
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("select atomno=6; label N*; color label lime"
+		, "select atomno=6; label off"
+		,"Follow one N atom")
+</script><br />
+
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script>
+
+
+<script>
+jmolButton("select all; color cpk"
+		,"Reset Colors")
+</script><br />
+
+
+<br />
+
+<script>
+jmolButton("reset; center atomno=1; delay 1; move -38 0 5 0 0 0 0 0 2; delay 1; move 0 -88 0 0 0 0 0 0 2; delay 0.1; move 0 0 4 0 0 0 0 0 1"
+		,"Reset to view down one C2 axis")
+</script>
+
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, Test for a C2")
+</script> <br />
+
+<script>
+jmolCheckbox("select atomno=11; color red; select atomno=12; color red"
+		, "select atomno=11; color cpk; select atomno=12; color cpk"
+		, "Highlight (red) the C-C bond in the front ligand")
+</script><br />
+<img src="l-ligand.gif"><br />
+
+
+Prove to yourself that the other two chelate rings have a &lambda; configuration by moving the molecule with your mouse <br />
+ If it helps: 
+<script>
+jmolCheckbox("select atomno=9; color yellow; select atomno=10; color yellow"
+		, "select atomno=9; color cpk; select atomno=10; color cpk"
+		, "Color one C-C bond yellow")
+</script> 
+<script>
+jmolCheckbox("select atomno=8; color lime; select atomno=13; color lime"
+		, "select atomno=8; color cpk; select atomno=13; color cpk"
+		,"And the other C-C bond green")
+</script> <br />
+</td>
+</tr>
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Coen3againd2.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+	</td>
+
+ <td> 
+	<td>
+	The Bottom Molecule is the &Delta;-&delta;&delta;&delta;-Isomer <br />
+Potentially useful viewing commands:
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("select atomno=16; label N*; color label lime"
+		, "select atomno=16; label off"
+		,"Follow one N atom")
+</script><br />
+
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script>
+
+
+<script>
+jmolButton("select all; color cpk"
+		,"Reset Colors")
+</script><br />
+
+
+<br />
+
+<script>
+jmolButton("reset; center atomno=1; delay 1; move 0 88 0 0 0 0 0 0 2; delay 1; move -3 0 30 0 0 0 0 0 2"
+		,"Reset to view down one C2 axis")
+</script>
+
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, Test for a C2")
+</script> <br />
+
+<script>
+jmolCheckbox("select atomno=13; color red; select atomno=14; color red"
+		, "select atomno=13; color cpk; select atomno=14; color cpk"
+		, "Highlight (red) the C-C bond in the front ligand")
+</script><br />
+
+<img src="d-ligand.gif"><br />
+
+Prove to yourself that the other two chelate rings have a &delta; configuration by moving the molecule with your mouse<br />
+ If it helps:
+<script>
+jmolCheckbox("select atomno=19; color yellow; select atomno=20; color yellow"
+		, "select atomno=19; color cpk; select atomno=20; color cpk"
+		, "Color one C-C bond yellow")
+</script> 
+<script>
+jmolCheckbox("select atomno=8; color lime; select atomno=5; color lime"
+		, "select atomno=8; color cpk; select atomno=5; color cpk"
+		, "And the other C-C bond green")
+</script> <br />
+</td>
+	
+      </tr>
+    </table>
+<a href="Index-MTC.html">Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+  </body>
+</html>

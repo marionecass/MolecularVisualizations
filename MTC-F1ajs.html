@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+    <title>Lambda Ligand Conformation</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load 13L-lll.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1; draw plane1 4.0 (atomno=7) (atomno=1) (atomno=2) translucent 0.7 magenta off")
+</script> <br />
+	</td>
+
+ <td> 
+	<td>
+	  <h2>F. Metal Tris Chelates with Non-Planar Ligands that can have &lambda; or &delta; Ligand Conformations<br />
+1.  What is a &lambda; or a &delta; Ligand Conformation?  a.  &lambda; </h2><br />
+
+One isomer of the Co(H<sub>2</sub>NCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)<sub>3</sub><sup>3+</sup> ion is shown to your left. <a href="MTC-MI-B1js.html">  More Info / Ref </a><br />
+
+Potentially useful viewing commands:
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("select atomno=6; label N*; color label lime"
+		, "select atomno=6; label off"
+		,"Follow one N atom")
+</script><br />
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script>
+
+
+
+<script>
+jmolButton("select all; color cpk"
+		,"Reset Colors")
+</script>
+
+
+<br />
+Metal Tris Chelates with Non-Planar Ligand Rings can have twists in the 3D-structure of the ligands that give rise to additional stereochemistry.<br />
+These twists give rise to &lambda; or &delta; twist ligand conformations.  The conformations are defined relative to the plane consisting of the coordinating atom-metal-coordinating atom plane (in our example, the N-M-N plane that
+can be highlighed in magneta) for that particular ligand.<br />
+What we are looking for is a twist in one of two directions as shown in the schematic below:<br />
+<img src="lord.gif"><br />
+
+To assign the ligand conformation, we need to look down the C<sub>2</sub> axis:<br/>
+
+
+<script>
+jmolButton("reset; center atomno=1; delay 1; move -38 0 5 0 0 0 0 0 2; delay 1; move 0 -88 0 0 0 0 0 0 2; delay 0.1; move 0 0 4 0 0 0 0 0 1"
+		,"Reset to view down one C2 axis")
+</script>
+
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, Confirm that you have a C2 Rotation")
+</script> <br />
+
+<script>
+jmolButton("select atomno=11; color red; select atomno=12; color red; delay 0.5; select atomno=11; color cpk; select atomno=12; color cpk; delay 0.5; select atomno=11; color red; select atomno=12; color red; delay 0.5; select atomno=11; color cpk; select atomno=12; color cpk;; delay 0.5; select atomno=11; color red; select atomno=12; color red"
+		,"Notice the positions of the C atoms in the front ligand (red)")
+</script>
+
+<script>
+jmolButton("select atomno=1; color magenta; select atomno=2; color magenta; select atomno=7; color magenta; delay 0.5; select atomno=1; color cpk; select atomno=2; color cpk; select atomno=7; color cpk; delay 0.5; select atomno=1; color magenta; select atomno=2; color magenta; select atomno=7; color magenta; delay 0.5; select atomno=1; color cpk; select atomno=2; color cpk; select atomno=7; color cpk; delay 0.5; select atomno=1; color magenta; select atomno=2; color magenta; select atomno=7; color magenta"
+		,"Relative to the N-M-N plane for the Same Ligand (magenta)")
+</script> 
+<script>
+jmolButton("draw plane1 on"
+		,"View the N-M-N plane")
+</script> <br />
+<br />
+
+
+Why is it called a &lambda; conformation? <br />
+<img src="l-ligand-twist.gif"><br />
+Remember that <strong>L</strong>ambda is associated with <strong>L</strong>eft <br />
+and <strong>L</strong>eftwise Rotations = Counter Clockwise <br />
+
+<a href="MTC-F1bjs.html">The &delta; ligand conformation is illustrated on the next page</a>
+
+
+<br />
+
+
+	</td>
+	     </tr>
+    </table>
+<a href="Index-MTC.html"> Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+	
+
+  </body>
+</html>

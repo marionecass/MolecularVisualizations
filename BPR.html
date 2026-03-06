@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>The Berry PseudoRotation</title>
+
+  <style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 150%}
+  span.c7 {font-size: 120%}
+</style>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+  </head>
+  <body>
+
+  <table border="1">
+<tr>
+      <td>
+
+      
+<script>
+jmolApplet(500,"load pf5.xyz; select all; labels off; frame 5; vectors off; spacefill 0.25; wireframe 0.1; center atomno=2; move 0 -90 0 0 0 0 0 0 1; move 10 0 0 0 0 0 0 0 1");
+</script> <br />
+</td>
+<td>
+<span class="c6"><strong>The Berry PseudoRotation in PF<sub>5</sub></strong></span><br />
+
+<script>
+jmolButton("frame 5","Initial");
+</script>
+<script>
+jmolButton("frame 1","Structure of the TS");
+</script>
+<script>
+jmolButton("frame 15","Final");
+</script><br />
+
+<script>
+jmolButton("reset; frame 5; vectors off; spacefill 0.25; wireframe 0.1; center atomno=2; move 0 -90 0 0 0 0 0 0 1; move 10 0 0 0 0 0 0 0 1","Reset Position");
+</script><br />
+
+
+
+<script>
+jmolCheckbox("frame 1; vibration on", "vibration off","Vibration on");
+</script><br />
+<script>
+jmolButton("select all; vibration off; frame 6; frame 7; delay 0.2; frame 8; delay 0.2; frame 9; delay 0.2; frame 10; delay 0.2; frame 11; delay 0.2; frame 12; delay 0.2; frame 13; delay 0.2; frame 15","Initial to Final");
+</script><span class="c6"><strong>One Berry PseudoRotation</strong></span><br /><br />
+
+<span class="c7">Add Viewing Tools:</span><br />
+
+Set colors for original orientation (<b>set to initial (or reset) first</b>)<br />
+<script>
+jmolCheckbox("select atomno=1; color red; select atomno=3; color red; select atomno=4; color red"
+		, "select atomno=1; color cpk; select atomno=3; color cpk; select atomno=4; color cpk"
+		,"Equatorial = Red")
+</script>
+<script>
+jmolCheckbox("select atomno=5; color blue; select atomno=6; color blue"
+		, "select atomno=5; color cpk; select atomno=6; color cpk"
+		,"Axial = Blue")
+</script><br />
+<script type="text/javascript">
+jmolButton("select all; color cpk"
+		,"Reset colors")
+</script>
+<br />
+<br />
+<br />
+
+
+
+</td></tr>
+	
+
+
+   
+    </table>
+  </body>
+</html>

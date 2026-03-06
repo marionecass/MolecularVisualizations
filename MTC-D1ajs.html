@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+  <title>Example of a Research Application: J. Barton (1)</title>
+  <style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+
+  </head>
+  <body>
+<h2>D.  Research Applications:</h2>
+<h3> 1.  Recognition of DNA structure using chiral metal chelates:<br />
+Research by <a href="http://www.its.caltech.edu/~jkbgrp/BartonBiography.htm">Jacqueline K. Barton</a> and her <a href="http://www.its.caltech.edu/~jkbgrp/">research associates</a>
+California Institute of Technology</h3>
+
+Professor Jacqueline K. Barton and her research group at the California Institute of Technology have established
+an extensive research program to examine the interaction of chiral metal complexes with DNA.  Many different complexes have been designed and synthesized that have feature
+specific (major groove vs minor groove, B-DNA vs A-DNA or Z-DNA, etc.) and/or sequence specific binding to different forms of DNA.  Many of the complexes also have been designed with specific capabilites such 
+as the ability to cleave at specific sequences of DNA or to fluoresce when bound to a specific sequence of DNA. <br /> For a review that includes this research, see Erkkila, K.E., Odom, D.T., Barton, J.K.; <i>Chemical Reviews</i> 
+Vol 99, <b>1999</b>, p. 2777-2795. <a href="http://dx.doi.org/10.1021/cr9804341">DOI</a><br />
+<br />
+
+One example of this work is shown here:<br />
+
+The two enantiomeric forms of &alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup>are shown below:<br />
+When a racemic mixture of these two enantiomers interacts with B-DNA, <b>the &Delta;-isomer intercalates preferentially into the B-DNA</b>.  The phi ligand of the complex
+intercalates into the major groove and binding has been shown to be sequence specific.  <a href="MTC-D1bjs.html"> A Crystal structure of the interaction of two pieces of double stranded B-DNA
+and 5 molecules of &Delta;-&alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup>is shown on the following page.</a><br />
+
+     <table border="1">
+      <tr>
+      <td>
+      
+<script>
+jmolApplet(400,"load L-LRhphiNew.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+
+The Left Molecule is the <b>known crystal structure</b> of [&Lambda;-&alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup><br />
+Viewing Tools:
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset to View down the C2 Axis")
+</script><br />
+
+<script>
+jmolButton("move 0 0 360 0 0 0 0 0 6"
+		,"Spin once around Z")
+</script>
+<script>
+jmolButton("move 0 360 0 0 0 0 0 0 6"
+		,"Spin once around Y")
+</script>
+<script>
+jmolButton("move 360 0 0 0 0 0 0 0 4"
+		,"Spin once around X")
+</script><br />
+
+phi = 9,10-phenanthrenequinone diimine: <br />
+<script>
+jmolCheckbox("select atomno=2; color magenta; select atomno=3; color magenta; select atomno=4; color magenta; select atomno=5; color magenta; select atomno=6; color magenta; select atomno=7; color magenta; select atomno=8; color magenta; select atomno=9; color magenta; select atomno=10; color magenta; select atomno=11; color magenta; select atomno=12; color magenta; select atomno=13; color magenta; select atomno=14; color magenta; select atomno=15; color magenta; select atomno=16; color magenta; select atomno=17; color magenta; select atomno=30; color magenta; select atomno=31; color magenta; select atomno=32; color magenta; select atomno=33; color magenta; select atomno=34; color magenta; select atomno=35; color magenta; select atomno=36; color magenta; select atomno=37; color magenta; select atomno=38; color magenta; select atomno=39; color magenta"
+		, "select atomno=2; color cpk; select atomno=3; color cpk; select atomno=4; color cpk; select atomno=5; color cpk; select atomno=6; color cpk; select atomno=7; color cpk; select atomno=8; color cpk; select atomno=9; color cpk; select atomno=10; color cpk; select atomno=11; color cpk; select atomno=12; color cpk; select atomno=13; color cpk; select atomno=14; color cpk; select atomno=15; color cpk; select atomno=16; color cpk; select atomno=17; color cpk; select atomno=30; color cpk; select atomno=31; color cpk; select atomno=32; color cpk; select atomno=33; color cpk; select atomno=34; color cpk; select atomno=35; color cpk; select atomno=36; color cpk; select atomno=37; color cpk; select atomno=38; color cpk; select atomno=39; color cpk"
+		, "(Highlight the phi ligand magenta)")
+</script><br />
+(R,R)-Me<sub>2</sub>trien = (2R,9R)-diamino-4,7-diazadecane: <br />
+</script>
+<script>
+jmolCheckbox("select atomno=18; color lime; select atomno=19; color lime; select atomno=20; color lime; select atomno=21; color lime; select atomno=22; color lime; select atomno=23; color lime; select atomno=24; color lime; select atomno=25; color lime; select atomno=26; color lime; select atomno=27; color lime; select atomno=28; color lime; select atomno=29; color lime; select atomno=40; color lime; select atomno=41; color lime; select atomno=42; color lime; select atomno=43; color lime; select atomno=44; color lime; select atomno=45; color lime; select atomno=46; color lime; select atomno=47; color lime; select atomno=48; color lime; select atomno=49; color lime; select atomno=50; color lime; select atomno=51; color lime; select atomno=52; color lime; select atomno=53; color lime; select atomno=54; color lime; select atomno=55; color lime; select atomno=56; color lime; select atomno=57; color lime; select atomno=58; color lime; select atomno=59; color lime; select atomno=60; color lime; select atomno=61; color lime"
+		, "select atomno=18; color cpk; select atomno=19; color cpk; select atomno=20; color cpk; select atomno=21; color cpk; select atomno=22; color cpk; select atomno=23; color cpk; select atomno=24; color cpk; select atomno=25; color cpk; select atomno=26; color cpk; select atomno=27; color cpk; select atomno=28; color cpk; select atomno=29; color cpk; select atomno=40; color cpk; select atomno=41; color cpk; select atomno=42; color cpk; select atomno=43; color cpk; select atomno=44; color cpk; select atomno=45; color cpk; select atomno=46; color cpk; select atomno=47; color cpk; select atomno=48; color cpk; select atomno=49; color cpk; select atomno=50; color cpk; select atomno=51; color cpk; select atomno=52; color cpk; select atomno=53; color cpk; select atomno=54; color cpk; select atomno=55; color cpk; select atomno=56; color cpk; select atomno=57; color cpk; select atomno=58; color cpk; select atomno=59; color cpk; select atomno=60; color cpk; select atomno=61; color cpk"
+		, "(Highlight the Me<sub>2</sub>-Trien Ligand lime)")
+</script><br /><br />
+<br />
+
+Reference:  (CCDC Reference: PITPAJ) Krotz, A.H., Barton, J.K.; <i>Inorganic Chemistry</i> Vol 33, <b>1994</b>, p. 1940-1947. <a href="http://dx.doi.org/10.1021/ic00087a034">DOI</a> or for 
+<a href="MTC-MI-D1js.html">More Information</a>
+
+</td>
+
+<td>
+	
+<script>
+jmolApplet(400,"load d-LRhphiNew.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+
+
+The Molecule shown on the right is the <b>Calculated Structure</b> for [&Delta;-&alpha;-[Rh[(R,R)-Me<sub>2</sub>trien]phi]<sup>3+</sup>.<br />
+
+Viewing tools:
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset to View down the C2Axis")
+</script><br />
+
+<script>
+jmolButton("move 0 0 360 0 0 0 0 0 6"
+		,"Spin once around Z")
+</script>
+<script>
+jmolButton("move 0 360 0 0 0 0 0 0 6"
+		,"Spin once around Y")
+</script>
+<script>
+jmolButton("move 360 0 0 0 0 0 0 0 4"
+		,"Spin once around X")
+</script><br />
+
+phi = 9,10-phenanthrenequinone diimine: <br />
+<script>
+jmolCheckbox("select atomno=2; color magenta; select atomno=3; color magenta; select atomno=4; color magenta; select atomno=5; color magenta; select atomno=6; color magenta; select atomno=7; color magenta; select atomno=8; color magenta; select atomno=9; color magenta; select atomno=10; color magenta; select atomno=11; color magenta; select atomno=12; color magenta; select atomno=13; color magenta; select atomno=14; color magenta; select atomno=15; color magenta; select atomno=16; color magenta; select atomno=17; color magenta; select atomno=30; color magenta; select atomno=31; color magenta; select atomno=32; color magenta; select atomno=33; color magenta; select atomno=34; color magenta; select atomno=35; color magenta; select atomno=36; color magenta; select atomno=37; color magenta; select atomno=38; color magenta; select atomno=39; color magenta"
+		, "select atomno=2; color cpk; select atomno=3; color cpk; select atomno=4; color cpk; select atomno=5; color cpk; select atomno=6; color cpk; select atomno=7; color cpk; select atomno=8; color cpk; select atomno=9; color cpk; select atomno=10; color cpk; select atomno=11; color cpk; select atomno=12; color cpk; select atomno=13; color cpk; select atomno=14; color cpk; select atomno=15; color cpk; select atomno=16; color cpk; select atomno=17; color cpk; select atomno=30; color cpk; select atomno=31; color cpk; select atomno=32; color cpk; select atomno=33; color cpk; select atomno=34; color cpk; select atomno=35; color cpk; select atomno=36; color cpk; select atomno=37; color cpk; select atomno=38; color cpk; select atomno=39; color cpk"
+		, "(Highlight the phi ligand magenta)")
+</script><br />
+(R,R)-Me<sub>2</sub>trien = (2R,9R)-diamino-4,7-diazadecane: <br />
+</script>
+<script>
+jmolCheckbox("select atomno=18; color lime; select atomno=19; color lime; select atomno=20; color lime; select atomno=21; color lime; select atomno=22; color lime; select atomno=23; color lime; select atomno=24; color lime; select atomno=25; color lime; select atomno=26; color lime; select atomno=27; color lime; select atomno=28; color lime; select atomno=29; color lime; select atomno=40; color lime; select atomno=41; color lime; select atomno=42; color lime; select atomno=43; color lime; select atomno=44; color lime; select atomno=45; color lime; select atomno=46; color lime; select atomno=47; color lime; select atomno=48; color lime; select atomno=49; color lime; select atomno=50; color lime; select atomno=51; color lime; select atomno=52; color lime; select atomno=53; color lime; select atomno=54; color lime; select atomno=55; color lime; select atomno=56; color lime; select atomno=57; color lime; select atomno=58; color lime; select atomno=59; color lime; select atomno=60; color lime; select atomno=61; color lime"
+		, "select atomno=18; color cpk; select atomno=19; color cpk; select atomno=20; color cpk; select atomno=21; color cpk; select atomno=22; color cpk; select atomno=23; color cpk; select atomno=24; color cpk; select atomno=25; color cpk; select atomno=26; color cpk; select atomno=27; color cpk; select atomno=28; color cpk; select atomno=29; color cpk; select atomno=40; color cpk; select atomno=41; color cpk; select atomno=42; color cpk; select atomno=43; color cpk; select atomno=44; color cpk; select atomno=45; color cpk; select atomno=46; color cpk; select atomno=47; color cpk; select atomno=48; color cpk; select atomno=49; color cpk; select atomno=50; color cpk; select atomno=51; color cpk; select atomno=52; color cpk; select atomno=53; color cpk; select atomno=54; color cpk; select atomno=55; color cpk; select atomno=56; color cpk; select atomno=57; color cpk; select atomno=58; color cpk; select atomno=59; color cpk; select atomno=60; color cpk; select atomno=61; color cpk"
+		, "(Highlight the Me<sub>2</sub>-Trien Ligand lime)")
+</script><br />
+<br />
+
+<a href="MTC-D1bjs.html"><b>This complex intercalates into the major groove of B-DNA</b></a>
+
+</td>
+
+	</tr>
+
+
+   
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

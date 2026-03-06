@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+    
+   <title>Method 2 for Lambda</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Ru(acac)3Ls.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> 
+	</td>
+
+ <td> 
+	<td>
+	  <h2>C-3. Assigning the Absolute Configuration (&Lambda; or &Delta;)<br>
+b. Method 2: Viewed as a Screw, ii) The &Lambda; Isomer </h2>  
+Illustrated using &Lambda;-tris(acetonylacetonate)ruthenium(III)<br> 
+
+<br />
+1. Align your molecule so that you
+<script>
+jmolButton("reset; center atomno=1"
+		,"look directly down the C3 axis")
+</script><br />
+
+2.  Look at the set of three atoms in front as creating a triangular face and the set of atoms in back as creating an triangular face <br />
+
+Potentially useful viewing tools:
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset to View down the C3 axis")
+</script><br />
+
+
+
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.40; color yellow; select atomno=4; spacefill 0.40; color yellow; select atomno=5; spacefill 0.40; color yellow; delay 0.5; select atomno=2; color cpk; select atomno=4; color cpk; select atomno=5; color cpk; delay 0.5; select atomno=2; color yellow; select atomno=4; color yellow; select atomno=5; color yellow; delay 0.5; select atomno=2; color cpk; select atomno=4; color cpk; select atomno=5; color cpk; delay 0.5; select atomno=2; color yellow; select atomno=4; color yellow; select atomno=5; color yellow; delay 0.5; select atomno=2; color cpk; select atomno=4; color cpk; select atomno=5; color cpk"
+		, "select atomno=2; spacefill 0.25; color cpk; select atomno=4; spacefill 0.25; color cpk; select atomno=5; spacefill 0.25; color cpk"
+		, "Highlight the front coordinating atoms (flash red/yellow and enlarge)")
+</script> <br />
+
+
+<script>
+jmolCheckbox("select atomno=3; color lime; spacefill 0.30; select atomno=7; color lime; spacefill 0.30; select atomno=6; spacefill 0.30; color lime"
+		, "select atomno=3; spacefill 0.25; color cpk; select atomno=7; spacefill 0.25; color cpk; select atomno=6; spacefill 0.25; color cpk"
+		, "Highlight the coordinating atoms in the rear (green)")
+</script>
+<br />
+
+
+3.  Think of the front face (with red atoms) as the head of a screw <br />
+and the back face (with green atoms) as the biting edge of the screw. <br />
+The threads of the screw are the ligand backbones.  <br />
+<strong>Now determine which way you must rotate the screw for it to bite into the back surface.</strong> <br />
+<img src="L Isomer Small.gif"><br />
+
+This is the Lambda (&Lambda;) Isomer:  You must 
+<script>
+jmolButton("reset; center atomno=1; move 0 0 120 0 0 0 0 0 5"
+		,"turn the molecule (screw) to the left")
+</script> to make the ligands (threads of the screw) bite into the back surface.<br />
+	</td>
+
+	
+      </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

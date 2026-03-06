@@ -1,0 +1,66 @@
+TITLE      CSD ENTRY DMPLNI
+REMARK   1 File created by GaussView 5.0.9
+HETATM    1  I1  UNK 0   1       0.137   4.938   5.641                       I
+HETATM    2  I2  UNK 0   1      -3.439   5.024   2.847                       I
+HETATM    3 Ni1  UNK 0   1      -0.958   5.019   3.343                      Ni
+HETATM    4  N1  UNK 0   1       0.018   6.471   2.400                       N
+HETATM    5  N2  UNK 0   1       0.068   3.823   2.103                       N
+HETATM    6  C1  UNK 0   1      -0.078   7.768   2.584                       C
+HETATM    7  C2  UNK 0   1       0.707   8.666   1.800                       C
+HETATM    8  C3  UNK 0   1       1.603   8.171   0.862                       C
+HETATM    9  C4  UNK 0   1       2.611   6.137  -0.253                       C
+HETATM   10  C5  UNK 0   1       2.636   4.824  -0.364                       C
+HETATM   11  C6  UNK 0   1       1.740   2.549   0.291                       C
+HETATM   12  C7  UNK 0   1       0.884   1.859   1.051                       C
+HETATM   13  C8  UNK 0   1       0.017   2.495   1.961                       C
+HETATM   14  C9  UNK 0   1       1.796   3.960   0.403                       C
+HETATM   15  C10 UNK 0   1       0.922   4.544   1.341                       C
+HETATM   16  C11 UNK 0   1       0.877   5.970   1.487                       C
+HETATM   17  C12 UNK 0   1       1.723   6.764   0.699                       C
+HETATM   18  C13 UNK 0   1      -1.078   8.282   3.601                       C
+HETATM   19  C14 UNK 0   1      -0.984   1.733   2.750                       C
+HETATM   20  H1  UNK 0   1       0.429   9.689   2.004                       H
+HETATM   21  H2  UNK 0   1       3.082   6.853  -0.817                       H
+HETATM   22  H3  UNK 0   1       3.173   4.289  -0.844                       H
+HETATM   23  H4  UNK 0   1       2.208   2.009  -0.211                       H
+HETATM   24  H5  UNK 0   1       0.641   0.855   0.949                       H
+HETATM   25  H3  UNK 0   1       2.194   8.839   0.271                       H
+HETATM   26 1H13 UNK 0   1      -1.590   7.455   4.047                       H
+HETATM   27 2H13 UNK 0   1      -0.563   8.834   4.360                       H
+HETATM   28 3H13 UNK 0   1      -1.786   8.920   3.114                       H
+HETATM   29 1H14 UNK 0   1      -1.552   2.409   3.354                       H
+HETATM   30 2H14 UNK 0   1      -0.481   1.029   3.379                       H
+HETATM   31 3H14 UNK 0   1      -1.640   1.212   2.085                       H
+TER      31      UNK 0   1
+END
+CONECT    1    3
+CONECT    2    3
+CONECT    3    1    2    4    5
+CONECT    4    3    6   16
+CONECT    5    3   13   15
+CONECT    6    4    7   18
+CONECT    7    6    8   20
+CONECT    8    7   17   25
+CONECT    9   10   17   21
+CONECT   10    9   14   22
+CONECT   11   12   14   23
+CONECT   12   11   13   24
+CONECT   13    5   12   19
+CONECT   14   10   11   15
+CONECT   15    5   14   16
+CONECT   16    4   15   17
+CONECT   17    8    9   16
+CONECT   18    6   26   27   28
+CONECT   19   13   29   30   31
+CONECT   20    7
+CONECT   21    9
+CONECT   22   10
+CONECT   23   11
+CONECT   24   12
+CONECT   25    8
+CONECT   26   18
+CONECT   27   18
+CONECT   28   18
+CONECT   29   19
+CONECT   30   19
+CONECT   31   19

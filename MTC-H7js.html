@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+    
+    <title>Two other Isomers of Tris Chelates</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load 13L-lll.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+	</td>
+
+	<td>
+	  <h2>H.  Exercises:<br />
+7.  Contrasting Two Isomers of [Co(H<sub>2</sub>NCH<sub>2</sub>CH<sub>2</sub>NH<sub>2</sub>)<sub>3</sub>]<sup>3+</sup></h2>
+
+<b>Isomer A:</b><br />
+
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script><br />
+<font color="#CC0000"> <strong>1.  Do the ligands have &lambda; or &delta; configurations?</strong></font><br />
+
+<script>
+jmolButton("reset; center atomno=1; delay 1; move -38 0 5 0 0 0 0 0 2; delay 1; move 0 -88 0 0 0 0 0 0 2; delay 0.1; move 0 0 4 0 0 0 0 0 1"
+		,"Reset to view down one C2 axis")
+</script>
+
+<script>
+jmolCheckbox("select atomno=11; color red; select atomno=12; color red"
+		, "select atomno=11; color cpk; select atomno=12; color cpk"
+		,"Highlight (red) the C-C bond in the front ligand")
+</script><br />
+ <img src="lord.gif"><br />
+ If it helps: 
+<script>
+jmolCheckbox("select atomno=9; color yellow; select atomno=10; color yellow"
+		, "select atomno=9; color cpk; select atomno=10; color cpk"
+		,"Color one C-C bond yellow")
+</script> 
+<<script>
+jmolCheckbox("select atomno=8; color lime; select atomno=13; color lime"
+		, "select atomno=8; color cpk; select atomno=13; color cpk"
+		, "And the other C-C bond green")
+</script> <br />
+Now test for C<sub>3</sub> and C<sub>2</sub> Operations: <br />
+<script>
+jmolButton("reset; center atomno=1; delay 1; move 0 0 -120 0 0 0 0 0 2"
+		,"Reset then Rotate by 120")
+</script><font color="#CC0000">  <strong> 2.  Is the C<sub>3</sub> Operation a Symmetry Operation for this molecule?</strong></font><br />
+To test for a C<sub>2</sub> you will need to align the molecule correctly with your mouse.<br />
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, Test for a C2")
+</script> <font color="#CC0000"> <strong>3.  Does this isomer have one or more C<sub>2</sub> Rotation Operations?</strong></font><br />
+<font color="#CC0000">      <strong>3.  What is the point group for this molecule?<br />
+4.  What is the configuration of each ligand? <br />
+5.  Can you designate the metal complex as having a &Lambda; or &Delta; configuration? <br />
+6.  What isomer would be the enantiomer of this isomer?</strong></font><br />
+</td>
+</tr>
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load 13L-dll.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+	</td>
+
+	<td>
+<font size="+1"><strong>Isomer B</strong></font><br />
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script><br />
+
+<font color="#CC0000"> <strong>1.  Do the ligands have &lambda; or &delta; configurations?</strong></font><br />
+
+<script>
+jmolButton("reset; center atomno=1; delay 1; move -38 0 5 0 0 0 0 0 2; delay 1; move 0 -88 0 0 0 0 0 0 2; delay 0.1; move 4 -4 4 0 0 0 0 0 1"
+		,"Reset to view down one C2 axis")
+</script>
+
+<script>
+jmolCheckbox("select atomno=9; color red; select atomno=10; color red"
+		, "select atomno=9; color cpk; select atomno=10; color cpk"
+		,"Highlight the front C-C bond red")
+</script><br />
+ <img src="lord.gif"><br />
+
+ If it helps: 
+<script>
+jmolCheckbox("select atomno=11; color yellow; select atomno=12; color yellow"
+		, "select atomno=11; color cpk; select atomno=12; color cpk"
+		,"Color one C-C bond yellow")
+</script> 
+<script>
+jmolCheckbox("select atomno=8; color lime; select atomno=13; color lime"
+		, "select atomno=8; color cpk; select atomno=13; color cpk"
+		, "And the other C-C bond green")
+</script> <br />
+Now test for C<sub>3</sub> and C<sub>2</sub> Operations: <br />
+<script>
+jmolButton("reset; center atomno=1; delay 1; move 0 0 -120 0 0 0 0 0 2"
+		,"Reset then Rotate by 120")
+</script><font color="#CC0000">  <strong> 2. Is the C<sub>3</sub> Operation a Symmetry Operation for this molecule?</strong></font><br />
+To test for a C<sub>2</sub> you will need to align the molecule correctly with your mouse.<br />
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, Test for a C2")
+</script> <font color="#CC0000"> <strong>3. Does this isomer have one or more C<sub>2</sub> Rotation Operations?</strong></font><br />
+      <font color="#CC0000">      <strong>4.  What is the point group for this molecule?<br />
+      5.  Is this molecule chiral? <br />
+6.  What is the configuration of each ligand and the overall name of the isomer? <br />
+7.  If this isomer is chiral, what would be the enantiomer of this isomer?</strong></font><br />
+
+
+	</td>
+	      </tr>
+    </table>
+  </body>
+<a href="Index-MTC.html">Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+  </body>
+</html>

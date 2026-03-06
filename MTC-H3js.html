@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+    
+   <title>Mo(acac)3</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Mo(acac)3.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> 
+	</td>
+
+ <td> 
+	  <h2>H.  Exercises: <br /> 
+3.  What is the symmetry of this isomer of Mo(acac)<sub>3</sub> ?</h2> <br />
+
+
+Potentially useful viewing commands:<br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+
+<script>
+jmolCheckbox("select atomno=5; label O*; color label lime"
+		, "select atomno=5; label off"
+		,"Follow one O atom")
+</script><br />
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script><br />
+
+
+<br />
+<br />
+
+This is one of the Isomers of the Tris(acetonylacetonate)molybdenum(III) molecule.  <a href="MTC-MI-A2bjs.html">Reference</a> <br />
+<font color = "#CC0000"><strong> 1. Determine the symmetry operations for the molecule and assign it to a point group. <br />
+2. Is this molecule chiral?  If so, is this a &Lambda; or a &Delta; Isomer?  If it is not chiral, give an explanation based on symmetry arguments.<br />
+3. What is the d electron count for the metal?  Do you expect any distortions based on the d electron configuration of the metal?</strong> </font><br />
+
+Move the molecule with your mouse to look for various elements of symmetry<br />
+The following buttons might help you determine if you have C<sub>3</sub> or C<sub>2</sub> symmetry <br />
+Test for a C<sub>3</sub>:
+
+<script>
+jmolButton("center atomno=1; move 0 0 -120 0 0 0 0 0 2"
+		,"Without resetting, rotate by 120")
+</script> <br />
+
+Test for a C<sub>2</sub>:
+
+<script>
+jmolButton("center atomno=1; move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, rotate by 180")
+</script> <br />
+
+	</td>
+	   </tr>
+    </table>
+<a href="Index-MTC.html">Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+  </body>
+</html>

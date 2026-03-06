@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <script type="text/javascript" src="Jmol.js"></script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+  <title>Lambda and Delta Isomers of Fe(cat)3</title>
+  <style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+
+  </head>
+  <body>
+   
+ <h2>C. The Stereochemical Properties of Metal Tris Chelates <br />
+ 
+2. The &Lambda; and &Delta; Isomers of [Tris(catecholato)Fe(III)]<sup>3-</sup> Anion</h2> <br />
+ 
+ 	 
+Notice that the two molecular ions shown below <a href="MTC-MI-C2js.html"> (More Information / References) </a>are non-superimposable mirror images of each other; therefore they are enantiomers.  For Metal Tris Chelates the two enantiomeric forms are called Lambda (&Lambda;) (Left handed) and
+Delta (&Delta;) (Right Handed).  In the following pages we will show you how to assign the absolute configurations of the enantiomers as &Lambda; or &Delta;.<br />
+With your mouse (and perhaps aided by the commands below) prove to yourself that these are enantiomers by trying to put them in superimposable orientations,
+you will find that you cannot accomplish this.<br />
+  
+  <table border="1">
+      <tr>
+      <td>
+      
+<script>
+jmolApplet(300,"load l-Fe(cat)3s.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=19")
+</script> <br />
+
+The Left Molecule is &Lambda;-Isomer (Lambda-Isomer)<br />
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script><br />
+
+<script>
+jmolCheckbox("spin on"
+		, "spin off"
+		, "Spin")
+</script><br />
+
+
+<script>
+jmolButton("spin off; reset; center atomno=19"
+		,"Reset Orientation 1")
+</script>
+
+
+<script>
+jmolButton("spin off; reset; center atomno=19; delay 1; move -38 0 5 0 0 0 0 0 1; delay 0.1; move 0 -88 0 0 0 0 0 0 1; delay 0.1; move 0 0 8 0 0 0 0 0 1; delay 0.1; move -6 0 0 0 0 0 0 0 1"
+		,"View from Orientation 2")
+</script>
+
+</td>
+
+<td>
+	
+<script>
+jmolApplet(300,"load d-Fe(cat)3s.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+
+
+The Right Molecule is the &Delta;-Isomer (Delta-Isomer)<br />
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script><br />
+
+<script>
+jmolCheckbox("spin on"
+		, "spin off"
+		, "Spin")
+</script><br />
+
+
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation 1")
+</script>
+
+
+<script>
+jmolButton("spin off; reset; center atomno=1; delay 1; move 0 88 0 0 0 0 0 0 2; delay 0.1; move -9 0 30 0 0 0 0 0 1"
+		,"View from Orientation 2")
+</script>
+
+</td>
+
+	</tr>
+
+
+
+   
+    </table>
+    <a href="Index-MTC.html">Return to Index</a><br />
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

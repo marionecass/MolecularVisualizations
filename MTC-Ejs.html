@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+  <title>Lambda and Delta Isomers: Analogy to Propellers</title>
+  <style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+
+  </head>
+  <body>
+     <table border="1">
+ <h2>E.  The Structural Correlation of Metal Tris Chelates to Propellers</h2>
+      <tr>
+      <td>
+      
+<script>
+jmolApplet(300,"load l-Fe(cat)3s.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=19")
+</script> <br />
+
+The Left Molecule is &Lambda;-Isomer (Lambda-Isomer)<br />
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("spin on"
+		, "spin off"
+		, "Spin")
+</script><br />
+
+<script>
+jmolCheckbox("spin off; reset; center atomno=19; delay 0.5; move -90 0 0 0 0 0 0 0 2; delay 0.2; spin on; set spin Y -30"
+		, "spin off"
+		,"View as a spinning propeller")
+</script>
+<br />
+
+
+
+<script>
+jmolButton("spin off; reset; center atomno=19"
+		,"Reset Orientation 1")
+</script>
+<br />
+
+<img src="leftprop.gif" width="100" height="100"><font size ="-1">Image courtsey of P. Csiszar</font><br />
+The image shown here is that of an impeller (which is used to mix liquids).
+When this impeller is rotated clockwise on its axis, it moves liquids "downwards": therefore by convention since most machines move
+impellers in a clockwise direction it is called a "down pumping" impeller.<br />
+If you look down from the top of our molecule, it is rotating in the clockwise direction. We hope you can see
+that the blades of our molecular impeller would push liquid downwards.<br />
+<a href="http://www.postmixing.com/mixing%20forum/impellers/pr.htm">A Web Site about Mixing and Impellers</a>
+</td>
+
+<td>
+	
+<script>
+jmolApplet(300,"load d-Fe(cat)3s.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+
+
+The Right Molecule is the &Delta; -Isomer (Delta-Isomer)<br />
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script>
+
+
+<script>
+jmolCheckbox("spin on"
+		, "spin off"
+		, "Spin")
+</script><br />
+
+
+<script>
+jmolCheckbox("spin off; reset; center atomno=1; delay 0.5; move -90 0 0 0 0 0 0 0 2; delay 0.2; spin on; set spin Y -30"
+		, "spin off"
+		, "View as a spinning propeller")
+</script><br />
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation 1")
+</script><br />
+
+
+<img src="rightprop.gif" width="100" height="100"><font size ="-1">Image courtsey of P. Csiszar</font><br />
+This image shows the mirror image impeller of the one shown your left.
+When this impeller is rotated clockwise on its axis, it moves liquids "upwards" therefore is called an "up-pumping" impeller.<br />
+Again we hope can see that since our molecular impeller is rotating 
+in the clockwise direction it would push liquid upwards.<br />
+Other Sites
+<ul><li><a href="https://www.google.com/search?site=&tbm=isch&source=hp&biw=1280&bih=672&q=titanic+in+dry+dock&oq=titanic+in+dry+dock&gs_l=img.3..0l2.5075.9022.0.9390.20.14.0.6.6.0.148.1341.0j12.12.0....0...1ac.1.64.img..2.18.1350.0..0i5i30k1j0i8i30k1j0i24k1.MMKBZegLPiw#imgrc=6eeEa0uqO1EcdM:">A Photograph of the large oppositely handed propellers (far right and far left) on the Titanic in dry dock</a>
+
+
+
+<br />
+</td>
+	</tr>
+	</table>
+
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+   
+
+  </body>
+</html>

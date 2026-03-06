@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head><title>PseudoTetrahedral-NidmpI2 and Distorted SqPlanar PtdmpI2</title>
+<head>
+<script type="text/javascript" src="Jmol.js"></script>
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c3 {font-size: 80%}
+</style>
+</head>
+
+  <body>
+ <h2>PseudoTetrahedral Ni(dmp)I<sub>2</sub> and Distorted Square Planar Pt(dmp)I<sub>2</sub></h2>
+    <table border="1">
+      <tr><td>
+      <h3>M(dmp)X<sub>2</sub> complexes</h3>
+      
+      <img src="dmp.gif" WIDTH=400 HEIGHT=270> <br /><br />
+     <Strong> With Ni(II)</strong><br />
+      
+      The <b>CH<sub>3</sub> groups </b>of the dmp ligand sterically <br /> 
+      block the formation of a square planar complex:  <br />
+      Ni(dmp)I<sub>2</sub> takes on a pseudo-tetrahedral geometry<br />
+      
+      <strong> With Pt(II) or Pd(II):</strong><br />
+      
+      In contrast Pt(II) and Pd(II) complexes of the dmp ligand <br />
+      take on a distorted square planar geometry<br />
+      Note that <strong>both</strong> the dmp ligand is distorted to accomodate the <br />
+      preferred square planar geometry for the metal and the square<br />
+      planar geometry of the metal is distorted by the ligand.
+      
+      </td>
+      <td>
+<script>
+      jmolApplet(400, "load DMPLNIwHydrogens.pdb; spacefill 0.25; wireframe 0.1; center atomno=3; background white");
+      </script>
+</script>      
+<br />
+<strong> Ni(II)</strong><br />
+di-iodo-(2,9-dimethyl-1,10-phenanthroline)nickel(II)</span><br /><br />
+
+Note: some Hydrogens were not located in the x-ray crystal structure determination and have been added computationally<br /><br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off; select carbon; spacefill 0.0; Set bondmode or; Select carbon; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "View only the Metal and Coordinated Atoms");
+</script><br /><br />
+
+
+
+
+
+Reference: CCDC Code DMPLNI<br /> 
+R. J. Butcher, C. J. O'Connor, E. Sinn, <br />
+<i>Inorg. Chem.</i>, Vol 18, p. 492, <b>1979</b>
+
+
+</td>
+      <td>
+ <script>
+      jmolApplet(400, "load ZEWXUU.pdb; spacefill 0.25; wireframe 0.1; center atomno=1; background white");
+      </script>
+     
+ <br />
+<strong> Pt(II)</strong><br />
+di-iodo-(2,9-dimethyl-1,10-phenanthroline)platinum(II)</span><br /><br />
+
+<br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off; select carbon; spacefill 0.0; Set bondmode or; Select carbon; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "View only the Metal and Coordinated Atoms");
+</script><br /><br /><br />
+<br />
+
+
+
+
+
+Reference: CCDC Code ZEWXUU<br />
+R. J. H. Clark, F. P. Fanizzi, G. Natile, C. Pacifico, <br />
+C. G. van Rooyen, D. A. Tocher,<br />
+<i>Inorg. Chim. Acta</i>, Vol 235, p 205, <b>1995</b>
+
+</td>
+</tr>
+
+
+
+
+
+   
+    </table>
+  </body>
+</html>

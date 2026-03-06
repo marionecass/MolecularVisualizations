@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+    
+   <title>Determining L or D?, #2</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Ru(acac)3Ls.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> 
+	</td>
+
+ <td> 
+	<td>
+	  <h2>3.  Stereochemical Properties of Metal Tris Chelates <br />
+C.  Determining the Absolute Configuration (&Lambda; or &Delta;) for a Metal Tris Chelate <br />
+a.  Method 1: ii) for Lambda (&Lambda;)</h2><br />
+
+We will illustrate two ways that we find most useful in determining the absolute configuration for a metal tris chelate.  To illustrate we will use the &Lambda; and &Delta; Isomers of the Tris(acetonylacetonate)metal complexes <br /> 
+To your left is one of the isomers of Tris(acetonylacetonate)ruthenium(III) <a href="MTC-MI-A2bjs.html">Reference</a> <br />
+
+First:  allign your molecule so that you are looking directly down the C<sub>3</sub> axis:<br />
+Potentially useful commands: 
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br />
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset to View down the C3 axis")
+</script>
+
+
+<br />
+
+<br />
+<b>Make sure one coordinating atom from each ligand is in the front and the second coordinating atom (from the same
+ligand) is in the back:</b><br />
+
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.40; color yellow; select atomno=4; spacefill 0.40; color yellow; select atomno=5; spacefill 0.40; color yellow; delay 0.5; select atomno=2; color cpk; select atomno=4; color cpk; select atomno=5; color cpk; delay 0.5; select atomno=2; color yellow; select atomno=4; color yellow; select atomno=5; color yellow; delay 0.5; select atomno=2; color cpk; select atomno=4; color cpk; select atomno=5; color cpk; delay 0.5; select atomno=2; color yellow; select atomno=4; color yellow; select atomno=5; color yellow; delay 0.5; select atomno=2; color cpk; select atomno=4; color cpk; select atomno=5; color cpk"
+		, "select atomno=2; spacefill 0.25; color cpk; select atomno=4; spacefill 0.25; color cpk; select atomno=5; spacefill 0.25; color cpk"
+		, "Highlight the front coordinating atoms (flash red/yellow and enlarge)")
+</script> <br />
+
+
+<script>
+jmolCheckbox("select atomno=3; color lime; spacefill 0.30; select atomno=7; color lime; spacefill 0.30; select atomno=6; spacefill 0.30; color lime"
+		, "select atomno=3; spacefill 0.25; color cpk; select atomno=7; spacefill 0.25; color cpk; select atomno=6; spacefill 0.25; color cpk"
+		, "Highlight the coordinating atoms in the rear (green)")
+</script>
+
+<br />
+<br />
+
+Now run the test with your <strong>left hand</strong>: <br />
+Place your finger tips on a back ligand atom and curl your fingers along the backbone of that same ligand toward the front coordinating atom (ie go from the green atom to the red atom along the ligand backbone).
+
+<script>
+jmolButton("select all; labels off; delay 0.2; select atomno=6; label 1; color label black; delay 0.3; select atomno=12; label 2; color label black; delay 0.3; select atomno=20; label 3; color label black; delay 0.3; select atomno=11; label 4; color label black; delay 0.3; select atomno=5; label 5; color label black"
+		,"Curl your fingers (R hand) along the ligand backbone from 1 to 5")
+</script> 
+<script>
+jmolButton("select all; labels off"
+		,"Remove Labels")
+</script><br />
+
+
+If you can do this with your <b>left hand</b> and your thumb is pointing towards you; then you have the &Lambda; Isomer<br />
+So here is the test with Marion's left hand:
+
+<img src="imm028.gif" width="100" height="100"> <br />
+
+
+It works!  Marion's thumb is pointing towards you, thus this is the <strong>&Lambda; Isomer </strong><br />
+</td>
+	
+      </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

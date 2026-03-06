@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Contrasting B/RD</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+   <h2>G.  Mechanisms that Racemize the &Lambda; and &Delta; Forms of Metal Tris Chelates<br />
+ 1.  Non-dissociative Mechanisms: c.  Contrasting the Bailar Twist and R&acirc;y-Dutt Mechanisms for GaL<sub>3</sub></h2>
+    <table border="1">
+<td>
+<script type="text/javascript">
+jmolApplet(350,"load GaBailar.xyz; select all; labels off; frame 1; vectors off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+ <table border ="1"> 
+    <td  valign="top"><span class="c1"><strong>Calculated Transition State for the Bailar Twist</strong></span><br />
+          Viewing Tools:<br /> 
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+<script type="text/javascript">
+jmolButton("reset; center atomno=1; frame 1"
+		,"Reset position")
+</script>
+<br />
+<script type="text/javascript">
+jmolCheckbox("select atomno=5; color lime; select atomno=6; color lime; select atomno=7; color lime"
+		, "select atomno=5; color cpk; select atomno=6; color cpk; select atomno=7; color cpk"
+		, "Back Os green/Front Os red")
+</script><br />
+
+<script type="text/javascript">
+jmolCheckbox("select carbon; spacefill 0.0; Set bondmode or; select carbon; wireframe off; select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; select all; wireframe 0.1"
+		,"Ignore Hydrogens and Carbons")
+</script><br />
+
+
+          <table border="1">
+          <td>
+          <strong>Viewing Calculated Motions</strong>
+
+<ol><li>
+<script type="text/javascript">
+jmolCheckbox("frame 1; vibration on"
+		, "vibration off"
+		,"Vibrational Mode On")
+</script>
+</li>
+<li><script type="text/javascript">
+jmolCheckbox("select all; vectors on; vector scale 3.0; color vectors yellow"
+		, "select all; vectors off"
+		,"Vectors on")
+</script></li>
+<li><script type="text/javascript">
+jmolButton("vibration off; frame 5"
+		,"Set to Max Displacement (a)")</script></li>
+
+<li><script type="text/javascript">
+jmolButton("select all; vibration off; frame 6; frame 7; delay 0.2; frame 8; delay 0.2; frame 9; delay 0.2; frame 10; delay 0.2; frame 11; delay 0.2; frame 12; delay 0.2; frame 13; delay 0.2; frame 15"
+		,"Displace Maximum (a) to Maximum (b)")</script></li></ol>
+<br />
+</td>
+</table>
+</td>
+    </table>
+</td>
+
+<td>
+<script type="text/javascript">
+jmolApplet(350,"load GaRayDutt.xyz; select all; labels off; frame 1; vectors off; spacefill 0.25; wireframe 0.1; center atomno=1; move -90 0 0 0 0 0 0 0 1")
+</script> <br />
+ <table border ="1"> 
+    <td  valign="top"><span class="c1"><strong>Calculated Transition State for the R&acirc;y-Dutt</strong></span><br />
+          Viewing Tools:<br /> 
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script type="text/javascript">
+jmolButton("reset; select all; labels off; frame 1; vectors off; spacefill 0.25; wireframe 0.1; center atomno=1; move -90 0 0 0 0 0 0 0 1"
+		,"Reset position")
+</script><br />
+<script type="text/javascript">
+jmolCheckbox("select atomno=5; color lime; select atomno=6; color lime; select atomno=7; color blue; select atomno=3; color orange"
+		, "select atomno=5; color cpk; select atomno=6; color cpk; select atomno=7; color cpk; select atomno=3; color cpk"
+		,"Color Code O Atoms")
+</script><br />
+
+<script type="text/javascript">
+jmolCheckbox("select carbon; spacefill 0.0; Set bondmode or; select carbon; wireframe off; select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Carbons and Hydrogens")
+</script><br />
+
+
+
+          <table border="1">
+          <td>
+          <strong>Viewing Calculated Motions</strong>
+
+<ol><li>
+<script type="text/javascript">
+jmolCheckbox("frame 1; vibration on"
+		,"vibration off"
+		,"Vibrational Mode On")
+</script></li>
+<li><script type="text/javascript">
+jmolCheckbox("select all; vectors on; vector scale 3.0; color vectors yellow"
+		, "vectors off"
+		,"Vectors on")
+</script></li>
+<li><script type="text/javascript">
+jmolButton("vibration off; frame 5"
+		,"Set to Max Displacement (a)")</script></li>
+
+<li><script type="text/javascript">
+jmolButton("select all; vibration off; frame 6; frame 7; delay 0.2; frame 8; delay 0.2; frame 9; delay 0.2; frame 10; delay 0.2; frame 11; delay 0.2; frame 12; delay 0.2; frame 13; delay 0.2; frame 15"
+		,"Displace Maximum (a) to Maximum (b)")</script></li>
+<li><script type="text/javascript">
+jmolButton("reset; frame 1"
+		,"Alternative View")
+</script></li></ol>
+</td>
+</table>
+</td>
+</table>
+
+</td>
+
+
+<td>
+<br />
+<font color = "#CC0000"><strong>
+After Viewing both the Bailar Twist the R&acirc;y-Dutt Mechanism
+from several different orientations list the similarities and differences
+between the two mechanisms.  Suggest what experiments you might
+do to ascertain if one mechanism was much more favorable than the
+other for a specific molecule.</strong></font>
+
+
+
+</table>
+<a href="Index.html">Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2014.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

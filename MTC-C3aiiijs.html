@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+    <title>Review Lambda and Delta Isomers</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Ru(acac)3Ls.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> </td>      
+	<td>
+	  <h2>C-3. Determining the Absolute Configuration (&Lambda; or &Delta;) for a Metal Tris Chelate<br />
+a-iii.  Review of Method 1 </h2>
+
+As a review, on the top we show the &Lambda;-Tris(acetonylacetonate)ruthenium(III) molecule<br />
+Potenially useful commands
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script>
+<br />
+
+<img src="imm028.gif" width="100" height="100">
+Marion can wrap her fingers from back to front along a (any of the three) ligand backbone using her <strong>left</strong> hand with her thumb pointing towards you; therefore this is the <strong>&Lambda; Isomer</strong><br />
+You have only one thing to Remember: <strong>L</strong>ambda = <strong>L</strong>eft<br />
+
+</td></tr>
+<tr>
+	<td>
+<script>
+jmolApplet(300,"load Cr3wH.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> </td>
+ <td>     
+On the bottom we show the &Delta;-Tris(acetonylacetonate)chromium(III) molecule<br />
+Potentially Useful Viewing Commands:
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script><br />
+
+<img src="imm026.gif" width="100" height="100">
+Marion can wrap her fingers from back to front along one (any of the three) ligand backbones using her <strong>right</strong> hand with her
+thumb pointing towards you; therfore this is the <strong>&Delta; Isomer</strong>.<br />
+	</td>
+
+     </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

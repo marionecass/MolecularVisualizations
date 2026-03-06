@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   <title> Symmetry Operations for Re(C6H4(NH)2)3</title>
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(300,"load Re(DAB)3D3hWilks.mol; select all; labels off; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> 
+	</td>
+
+ <td> 
+	<td>
+<h2>B.  The Symmetry Properties of Metal Tris Chelates<br />
+3.  Higher Order Symmetries</h2><br />
+An Example using the [Tris(&sigma;-diaminobenzene)Rhenium(VII)]<sup>+</sup> Ion<br />
+
+Potenially useful Viewing Commands:<br />
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		,"select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1"
+		, "Ignore Hydrogens")
+</script>
+
+<script>
+jmolCheckbox("select atomno=2; label N(a); color label lime"
+		,"select atomno=2; label off"
+		, "Follow one N atom")
+</script><br />
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset Orientation")
+</script><br />
+
+<br />
+<br />
+The [Re(&sigma;-diaminobenzene)<sub>3</sub>]<sup>+</sup> ion is a tris chelate with a slightly different structure than we have seen before. <a href="MTC-MI-B3js.html">  More Info/Reference</a><br />
+<font color ="#CC0000"> <strong>1.  Determine the symmetry operations for the molecule and assign it to a point group. (Note there are hints in this page!)<br />
+2. Is this ion chiral?  Why or Why Not? </strong></font><br />
+
+Move the molecule with your mouse to look for various elements of symmetry<br />
+The following buttons might help you determine if you have C<sub>3</sub> or C<sub>2</sub> symmetry <br />
+
+Test for a C<sub>3</sub>:
+<script>
+jmolButton("move 0 0 -120 0 0 0 0 0 2"
+		,"Without resetting, rotate by 120")
+</script> <br />
+
+Test for a C<sub>2</sub>:
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2"
+		,"Without resetting, rotate by 180")
+</script> 
+
+	</td>
+	
+      </tr>
+    </table>
+    <a href="Index-MTC.html">Return to Index</a>
+    <p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2025.  
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+  </body>
+</html>

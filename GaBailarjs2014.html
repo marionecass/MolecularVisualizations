@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>The Bailar Twist for GaL3</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+  </head>
+  <body>
+ <h2>G. Mechanisms that can Racemize &Lambda; and &Delta; Metal Tris Chelates<br />
+ Non-dissociative Mechanisms: a. The Bailar Twist Mechanism for GaL<sub>3</sub> (L = mda)</h2> 
+    <table border="1">
+<td>
+<script>
+jmolApplet(320,"load GaBailar.xyz; select all; labels off; frame 5; vectors off; spacefill 0.25; wireframe 0.1; center atomno=1; draw plane1 2.0 (atomno=19) (atomno=21) (atomno=23) translucent 0.7 yellow off; draw plane2 2.0 (atomno=17) (atomno=21) (atomno=23) translucent 0.7 yellow off")
+</script> <br />
+ <table border ="1">       
+<td  valign="top"><span class="c6"><strong> &Lambda;-GaL<sub>3</sub></strong></span><br />
+
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolButton("reset; frame 5; center atomno=1"
+		,"Reset position")
+</script><br />
+
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.50; select atomno=3; spacefill 0.50; select atomno=4; spacefill 0.50"
+		, "select atomno=2; spacefill 0.25; select atomno=3; spacefill 0.25; select atomno=4; spacefill 0.25"
+		,"Enlarge the O Atoms on one C3 face")
+</script><br />
+<script>
+jmolCheckbox("select atomno=19; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=19; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create a facial isomer")
+</script>
+<script>
+jmolCheckbox("draw plane1 on"
+		, "draw plane1 off"
+		, "Add a facial plane")
+</script><br />
+<script>
+jmolCheckbox("select atomno=17; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=17; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create a meridional isomer")
+</script>
+<script>
+jmolCheckbox("draw plane2 on"
+		, "draw plane2 off"
+		, "Add a meridional plane")
+</script>
+
+
+
+
+</td></table>
+<br />
+<br />
+</td>
+
+
+<td>
+<script>
+jmolApplet(350,"load GaBailar2.xyz; select all; labels off; vectors off; spacefill 0.25; wireframe 0.1; center atomno=1");
+</script> <br />
+ <table border ="1"> 
+    <td  valign="top"><span class="c6"><strong>Calc D<sub>3h</sub> TS for the Bailar Twist</strong></span><br />
+
+
+
+
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hs");
+</script>
+<script>
+jmolButton("reset; center atomno=1"
+		,"Reset position");
+</script><br />
+
+<script>
+jmolCheckbox("select carbon; spacefill 0.0; Set bondmode or; select carbon; wireframe off; select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		, "select all; spacefill 0.25; Set bondmode or; select all; wireframe 0.1"
+		,"Ignore Hs and Cs")
+</script><br />
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.50; select atomno=3; spacefill 0.50; select atomno=4; spacefill 0.50"
+		, "select atomno=2; spacefill 0.25; select atomno=3; spacefill 0.25; select atomno=4; spacefill 0.25"
+		,"Enlarge same O Atoms")
+</script>
+
+
+
+
+          <table border="1">
+          <td>
+          <strong>Viewing Calculated Motions</strong>
+
+<ol><li>
+<script>
+jmolCheckbox("frame 1; vibration on"
+		, "vibration off"
+		,"Vibration On")
+</script>
+
+</li>
+<li><script>
+jmolButton("vibration off; frame 5"
+		,"Set to Max Displacement (a)")</script>
+            <span class="c1"><strong>Compare to &Lambda;</strong></span></li>
+
+<li><script>
+jmolButton("frame 6; delay 0.2; frame 7; delay 0.2; frame 8; delay 0.2; frame 9; delay 0.2; frame 10; delay 0.2; frame 11; delay 0.2; frame 12; delay 0.2; frame 13; delay 0.2; frame 15"
+		,"Displace Max (a) to Max (b)")</script>
+             <span class="c1"><strong>Compare to &Delta;</strong></span></li></ol>
+
+<script>
+jmolCheckbox("select atomno=19; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=19; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create a facial isomer");
+</script>
+
+
+<script>
+jmolCheckbox("draw plane3 2.0 (atomno=19) (atomno=21) (atomno=23) translucent 0.7 yellow on"
+		, "draw plane3 off"
+		, "Add a facial plane");
+</script><br />
+<script>
+jmolCheckbox("select atomno=17; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=17; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create a meridional isomer");
+</script>
+<s<script>
+jmolCheckbox("draw plane4 2.0 (atomno=17) (atomno=21) (atomno=23) translucent 0.7 yellow on"
+		, "draw plane4 off"
+		, "Add a meridional plane");
+</script>
+
+</td>
+</table>
+    </table>
+</td>
+
+<td><script>
+jmolApplet(320,"load GaBailar3.xyz; select all; labels off; frame 15; vectors off; spacefill 0.25; wireframe 0.1; center atomno=1; draw plane5 2.0 (atomno=19) (atomno=21) (atomno=23) translucent 0.7 yellow off; draw plane6 2.0 (atomno=17) (atomno=21) (atomno=23) translucent 0.7 yellow off")
+</script> <br />
+ <table border ="1">       
+<td  valign="top"><span class="c6"><strong>&Delta;-GaL<sub>3</sub></strong></span><br />
+
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script>
+
+<script>
+jmolButton("reset; frame 15; center atomno=1"
+		,"Reset position")
+</script><br />
+
+<script>
+jmolCheckbox("select atomno=2; spacefill 0.50; select atomno=3; spacefill 0.50; select atomno=4; spacefill 0.50"
+		, "select atomno=2; spacefill 0.25; select atomno=3; spacefill 0.25; select atomno=4; spacefill 0.25"
+		,"Enlarge O Atoms on C3 face")
+</script><br />
+<script>
+jmolCheckbox("select atomno=19; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=19; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Test a facial isomer")
+</script>
+<script>
+jmolCheckbox("draw plane5 2.0 (atomno=19) (atomno=21) (atomno=23) translucent 0.7 yellow on"
+		, "draw plane5 off"
+		, "Add a facial plane")
+</script><br />
+<script>
+jmolCheckbox("select atomno=17; spacefill 0.35; color yellow; select atomno=21; spacefill 0.35; color yellow; select atomno=23; spacefill 0.35; color yellow"
+		, "select atomno=17; spacefill 0.25; color cpk; select atomno=21; spacefill 0.25; color cpk; select atomno=23; spacefill 0.25; color cpk"
+		,"Create a meridional isomer")
+</script>
+<script>
+jmolCheckbox("draw plane6 on"
+		, "draw plane6 off"
+		, "Add a meridional plane")
+</script>
+
+<br />
+<font color = "#CC0000"><strong>State whether facial and meridional isomers can, cannot or must be interchanged by a Bailar Twisting motion</strong></font> 
+<br />
+</td>
+</table><br />
+<a href="MTC-MI-G1ajs.html">For Information on our GaL<sub>3</sub> Complex <br />
+and our Computational Model</a><br />
+
+<br />
+<br />
+
+
+
+
+</td>
+</tr>
+</table>
+<a href="Index-MTC.html">Return to Index</a>
+<p><small>Resources developed by Marion E. Cass, Carleton College and updated in 2014 and 2025 
+Computations and content done in consultation with Henry S. Rzepa, Imperial College, London</small></p>
+
+  </body>
+</html>

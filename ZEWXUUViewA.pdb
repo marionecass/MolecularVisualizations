@@ -1,0 +1,66 @@
+REMARK   This PDB file was created by CS Chem3D.
+SEQRES   1 0    1  UNK
+HETATM    1  C3  UNK 0   1       9.480   3.002   2.834                       C 
+HETATM    2 Pt1  UNK 0   1       5.117   1.083   2.851                       PT
+HETATM    3  I1  UNK 0   1       3.079  -0.357   2.177                       I 
+HETATM    4  I2  UNK 0   1       5.838  -0.972   4.233                       I 
+HETATM    5  N1  UNK 0   1       6.848   2.145   3.207                       N 
+HETATM    6  N2  UNK 0   1       4.950   2.565   1.397                       N 
+HETATM    7  C1  UNK 0   1       7.689   2.184   4.257                       C 
+HETATM    8  C2  UNK 0   1       9.023   2.567   4.033                       C 
+HETATM    9  C11 UNK 0   1       4.184   3.677  -0.580                       C 
+HETATM   10  C4  UNK 0   1       8.565   3.170   1.792                       C 
+HETATM   11  C5  UNK 0   1       7.239   2.725   2.036                       C 
+HETATM   12  C6  UNK 0   1       8.859   3.799   0.554                       C 
+HETATM   13  C7  UNK 0   1       7.908   4.045  -0.341                       C 
+HETATM   14  C8  UNK 0   1       6.533   3.669  -0.111                       C 
+HETATM   15  C9  UNK 0   1       6.244   2.970   1.085                       C 
+HETATM   16  C10 UNK 0   1       3.934   3.004   0.639                       C 
+HETATM   17  C12 UNK 0   1       5.482   3.990  -0.972                       C 
+HETATM   18  C13 UNK 0   1       7.213   1.871   5.624                       C 
+HETATM   19  C14 UNK 0   1       2.508   2.842   1.046                       C 
+HETATM   20  H1  UNK 0   1       9.641   2.519   4.766                       H 
+HETATM   21  H2  UNK 0   1      10.412   3.190   2.704                       H 
+HETATM   22  H3  UNK 0   1       9.766   4.053   0.359                       H 
+HETATM   23  H4  UNK 0   1       8.142   4.484  -1.163                       H 
+HETATM   24  H5  UNK 0   1       3.449   3.921  -1.145                       H 
+HETATM   25  H6  UNK 0   1       5.651   4.418  -1.815                       H 
+HETATM   26  H7  UNK 0   1       6.284   1.631   5.591                       H 
+HETATM   27  H8  UNK 0   1       7.722   1.139   5.980                       H 
+HETATM   28  H9  UNK 0   1       7.324   2.642   6.186                       H 
+HETATM   29  H10 UNK 0   1       2.466   2.374   1.884                       H 
+HETATM   30  H11 UNK 0   1       2.101   3.706   1.142                       H 
+HETATM   31  H12 UNK 0   1       2.038   2.340   0.375                       H 
+TER
+CONECT    1    8   10   21
+CONECT    2    3    4    5    6
+CONECT    3    2
+CONECT    4    2
+CONECT    5    2    7   11
+CONECT    6    2   15   16
+CONECT    7    5    8   18
+CONECT    8    7    1   20
+CONECT    9   16   17   24
+CONECT   10    1   11   12
+CONECT   11    5   10   15
+CONECT   12   10   13   22
+CONECT   13   12   14   23
+CONECT   14   13   15   17
+CONECT   15    6   11   14
+CONECT   16    6    9   19
+CONECT   17   14    9   25
+CONECT   18    7   26   27   28
+CONECT   19   31   16   29   30
+CONECT   20    8
+CONECT   21    1
+CONECT   22   12
+CONECT   23   13
+CONECT   24    9
+CONECT   25   17
+CONECT   26   18
+CONECT   27   18
+CONECT   28   18
+CONECT   29   19
+CONECT   30   19
+CONECT   31   19
+END
