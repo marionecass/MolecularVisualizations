@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head><title>CoDino-for NMR Assignments-Chem Equiv</title>
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script type="text/javascript">
+jmolApplet(500,"load ModHARBAD.mol; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> </td>      
+	<td>
+	 <h2>[Co(diNOsar)]<sup>3+</sup>:  Looking for Chemical Equivalent Protons</h2>
+
+Viewing tools:
+<script>
+jmolButton("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off"
+		,"Ignore Hydrogens")
+</script>
+
+<script>
+jmolButton("select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1; select all; color cpk"
+		,"Restore All Atoms")
+</script><br />
+<script>
+jmolButton("select oxygen; spacefill 0.0; select atomno=2; color orange; select atomno=18; color orange; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off"
+		,"Simplify the NO2 groups")
+</script>
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset")
+</script>
+<script>
+jmolCheckbox("spin on","spin off", "Spin")
+</script>
+<script>
+jmolButton("select all; color cpk; select all; spacefill 0.25; select all; wireframe 0.1"
+		,"Remove Colors")
+</script><br />
+<strong> The most important tools:</strong>
+ <script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2", "C2 operation")
+</script> 
+ <script>
+jmolButton("move 0 0 -120 0 0 0 0 0 2", "C3 operation")
+</script> <br /><br />
+ <font color = "#CC0000"><strong> Your mission:<br />
+Test nuclei for chemical equivalence:</strong></font><br />
+<strong>Begin by
+<script>
+jmolButton("select oxygen; spacefill 0.0; select atomno=2; color orange; select atomno=18; color orange; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off"
+		,"Simplifing the NO2 groups")
+</script><br />
+
+I)  C-H Protons in the ethylene bridge (there are 
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=52; color yellow; color opaque; select atomno=54; color yellow; color opaque; select atomno=56; color yellow; color opaque; select atomno=42; color yellow; color opaque; select atomno=40; color yellow; color opaque; select atomno=44; color yellow; color opaque; select atomno=53; color yellow; color opaque; select atomno=55; color yellow; color opaque; select atomno=57; color yellow; color opaque; select atomno=41; color yellow; color opaque; select atomno=43; color yellow; color opaque; select atomno=45; color yellow; color opaque","12");
+</script>of them)
+<ol><li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=42; color magenta; color opaque; select atomno=43; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=42; color magenta; color opaque; select atomno=55; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=42; color magenta; color opaque; select atomno=54; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=42; color magenta; color opaque; select atomno=40; color magenta; color opaque; select atomno=44; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=41; color magenta; color opaque; select atomno=43; color magenta; color opaque; select atomno=45; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=52; color magenta; color opaque; select atomno=54; color magenta; color opaque; select atomno=56; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=53; color magenta; color opaque; select atomno=55; color magenta; color opaque; select atomno=57; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=53; color magenta; color opaque; select atomno=55; color magenta; color opaque; select atomno=57; color magenta; color opaque; select atomno=41; color magenta; color opaque; select atomno=43; color magenta; color opaque; select atomno=45; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=52; color magenta; color opaque; select atomno=54; color magenta; color opaque; select atomno=56; color magenta; color opaque;select atomno=42; color magenta; color opaque; select atomno=40; color magenta; color opaque; select atomno=44; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight all
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=52; color magenta; color opaque; select atomno=54; color magenta; color opaque; select atomno=56; color magenta; color opaque; select atomno=42; color magenta; color opaque; select atomno=40; color magenta; color opaque; select atomno=44; color magenta; color opaque; select atomno=53; color magenta; color opaque; select atomno=55; color magenta; color opaque; select atomno=57; color magenta; color opaque; select atomno=41; color magenta; color opaque; select atomno=43; color magenta; color opaque; select atomno=45; color magenta; color opaque","12");
+</script>of C-H ethylene bridge protons.) <font color = "#CC0000"><strong>Are all 12 chemically equivalent:  Yes or No?</strong></font></li></ol><br />
+
+II)  C-H Protons in the cap (there are 
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=35; color yellow; color opaque; select atomno=37; color yellow; color opaque; select atomno=39; color yellow; color opaque; select atomno=34; color yellow; color opaque; select atomno=36; color yellow; color opaque; select atomno=38; color yellow; color opaque; select atomno=46; color yellow; color opaque; select atomno=48; color yellow; color opaque; select atomno=50; color yellow; color opaque; select atomno=47; color yellow; color opaque; select atomno=49; color yellow; color opaque; select atomno=51; color yellow; color opaque","12");
+</script>of them)
+<ol><li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=37; color magenta; color opaque; select atomno=36; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=36; color magenta; color opaque; select atomno=48; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=36; color magenta; color opaque; select atomno=49; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=35; color magenta; color opaque; select atomno=37; color magenta; color opaque; select atomno=39; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=34; color magenta; color opaque; select atomno=36; color magenta; color opaque; select atomno=38; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=46; color magenta; color opaque; select atomno=48; color magenta; color opaque; select atomno=50; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=47; color magenta; color opaque; select atomno=49; color magenta; color opaque; select atomno=51; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=35; color magenta; color opaque; select atomno=37; color magenta; color opaque; select atomno=39; color magenta; color opaque; select atomno=47; color magenta; color opaque; select atomno=49; color magenta; color opaque; select atomno=51; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=34; color magenta; color opaque; select atomno=36; color magenta; color opaque; select atomno=38; color magenta; color opaque; select atomno=46; color magenta; color opaque; select atomno=48; color magenta; color opaque; select atomno=50; color magenta; color opaque","these C-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li> Highlight all
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=35; color magenta; color opaque; select atomno=37; color magenta; color opaque; select atomno=39; color magenta; color opaque; select atomno=34; color magenta; color opaque; select atomno=36; color magenta; color opaque; select atomno=38; color magenta; color opaque; select atomno=46; color magenta; color opaque; select atomno=48; color magenta; color opaque; select atomno=50; color magenta; color opaque; select atomno=47; color magenta; color opaque; select atomno=49; color magenta; color opaque; select atomno=51; color magenta; color opaque","12");
+</script>of the C-H cap protons).  <font color = "#CC0000"><strong>Are all 12 chemically equivalent:  Yes or No?</strong></font></li></ol><br />
+
+
+
+III)  N-H Protons (there are 
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=31; color yellow; color opaque; select atomno=32; color yellow; color opaque; select atomno=33; color yellow; color opaque; select atomno=15; color yellow; color opaque; select atomno=16; color yellow; color opaque; select atomno=17; color yellow; color opaque","6");
+</script>of them):<br />
+<ol><li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=15; color magenta; color opaque; select atomno=16; color magenta; color opaque; select atomno=17; color magenta; color opaque","these N-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=16; color magenta; color opaque; select atomno=32; color magenta","these N-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=31; color magenta; color opaque; select atomno=32; color magenta; color opaque; select atomno=33; color magenta; color opaque","these N-H protons");
+</script>
+<font color = "#CC0000"><strong>Are these protons chemically equivalent:  Yes or No?</strong></font></li>
+<li>Highlight all  
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=31; color magenta; color opaque; select atomno=32; color magenta; color opaque; select atomno=33; color magenta; color opaque; select atomno=15; color magenta; color opaque; select atomno=16; color magenta; color opaque; select atomno=17; color magenta; color opaque","6 N-H protons");
+</script>
+<font color = "#CC0000"><strong>Are the 6 N-H protons chemically equivalent:  Yes or No?</strong></font></li></ol>
+<br />
+
+<font color = "#CC0000"><strong>When you answered Yes or No to each question and have determined how many groups of chemically equivalent protons<br />
+ you should see in your proton NMR spectrum.  Check your answers with your instructor before proceeding</strong></font><br />
+
+
+
+
+Reference:  CCDC Structure HARBAD; R.J. Geve, L.M. Englehardt, J. M. Harrowfield<br />
+A.M. Sargenson, A. H. White <i>Aust. J. Chem.</i> Vol 46, <b>1993</b>, p. 1485
+
+<br />
+<br />
+
+
+</td>
+      </tr>
+    </table>
+    <a href="Index-CC.html">Return to Index</a>
+  </body>
+</html>

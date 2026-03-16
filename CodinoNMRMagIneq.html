@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+  <head><title>CoDino-for NMR Assignments-Magnetic Inequivalence</title>
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script>
+jmolApplet(500,"load ModHARBAD.mol; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> </td>      
+	<td>
+	 <h2>Magnetic Inequivalence</sup></h2>
+	 
+	 <h3>Magnetic Inequivalence can occur <b>within sets of chemically equivalent nuclei</b></h3>
+	 <ul><li>For two nuclei that are chemically equivalent to be magnetically <b>equivalent</b>, they must couple in the same fashion to all other
+	 magnetic nuclei in the molecule.</li>
+	 <li>Nuclei are <b>magnetically inequivalent</b> to each other <b>if</b> they couple differently to at least one other magnetic 
+	 nucleus in the molecule.<br />
+	 <br />
+	 Viewing tools:
+<script>
+jmolButton("select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off"
+		,"Simplify the NO2 groups, and ghost all atoms")
+</script>
+<script>
+JmolButton("reset; center atomno=1; select all; color cpk; color opaque", "Reset");
+</script><br />
+<br/>
+
+	 <b>The Example:</b>  The following pair of 
+	 <script>
+	 jmolButton("reset; center atomno=1; select all; color cpk; color translucent; select oxygen; spacefill 0.0; select atomno=2; color orange; color translucent; select atomno=18; color orange; color translucent; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off; select atomno=43; color lime; color opaque; label Ha; color label black; select atomno=55; color lime; color opaque; label Ha; color label black", "Ha");
+	 </script> protons are chemically equivalent because they are equivalent through a C<sub>2</sub> operation<br />
+	 
+	If we differentiate between the two H<sub>a</sub> protons and label them 
+	<script>
+     jmolButton("select atomno=43; color lime; color opaque; label Ha1; color label black; select atomno=55; color green; color opaque; label Ha2; color label black", "Ha1 and Ha2");
+     </script><br />
+And use 
+	 <script>
+	 jmolButton("select atomno=42; color yellow; color opaque; label Hb; color label black", "Hb");
+	 </script> to test H<sub>a1</sub> and H<sub>a2</sub> against<br />
+	 We ask the following question: <br />
+	 If the two H<sub>a</sub> protons are magnetically equivalent, they will each couple to H<sub>b</sub> in the same fashion.<br />
+	 This is clearly not the case:  H<sub>a1</sub> couples to H<sub>b</sub> in a geminal (adjacent to each other on the same carbon atom:  H<sub>a1</sub> - C - H<sub>b</sub>) relationship<br />
+	 However H<sub>a2</sub> couples to H<sub>b</sub> in a viscinal relationship (H<sub>a2</sub>- C - C - H<sub>b</sub>)<br />
+	 <br />
+	 We conclude that H<sub>a1</sub> and H<sub>a2</sub> are <b>magnetically inequivalent</b><br />
+	 and by convention we label them <b>H<sub>a</sub> and H<sub>a'</sub></b><br /><br />
+	
+	 
+	 
+	 <font color = "#CC0000"><strong> Your mission:
+	   Test to see if the <br /> <ol>
+	  <li> <script>
+	 jmolButton("select atomno=42; color yellow; color opaque; label Hb1; color label black; select atomno=54; color yellow; color opaque; label Hb2; color label black", "Hb");
+	 </script>
+	 protons are magnetically equivalent to each other</li>
+	 <li>And if within the H<sub>c</sub> subset and the H<sub>d</sub> subset of protons you expect to see magnetic inequivalence </strong></font></li></ol>
+	 
+
+<br />
+
+<small>Reference:  CCDC Structure HARBAD; R.J. Geve, L.M. Englehardt, J. M. Harrowfield<br />
+A.M. Sargenson, A. H. White <i>Aust. J. Chem.</i> Vol 46, <b>1993</b>, p. 1485</small>
+
+<br />
+<br />
+
+
+</td>
+      </tr>
+    </table>
+    <a href="Index-CC.html">Return to Index</a>
+  </body>
+</html>

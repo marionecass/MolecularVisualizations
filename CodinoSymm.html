@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head><title>The Symmetry of CodiNOsar</title>
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script type="text/javascript">
+jmolApplet(300,"load ModHARBAD.mol; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script><br /> 
+<strong>Side View</strong>
+</td>      
+	<td>
+	 <h2>The Symmetry of [Co(diNOsar)]<sup>3+</sup></h2>
+[(1,8-Dinitro-3,6,10,13,16,19-hexa-azabicyclo{6.6.6}icosane)cobalt(III)] trication<br />
+<br />
+<strong>You can view this with <a href="CodinoSymmB.html">Idealized Symmetry</a> if Desired</strong><br /><br />
+
+<strong>[Co(diNOsar)]<sup>3+</sup> has D<sub>3</sub> Symmetry </strong> (assuming that the NO<sub>2</sub> groups can freely rotate)<br />
+<strong>The molecule therefore has one C<sub>3</sub> axis (two C<sub>3</sub> operations: C<sub>3</sub> and C<sub>3</sub><sup>2</sup>)
+and 3 C<sub>2</sub> axes (three C<sub>2</sub> operations)</strong><br /><br />
+
+
+<strong>To View one of the C<sub>2</sub> axes and rotations:</strong><br />
+First 
+<script>
+jmolButton("spin off; reset; center atomno=1", "Reset")
+</script>
+Then,
+<script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2", "Carry out the C2")
+</script><br />
+
+
+<font color = "#CC0000"><strong>Find the other two C<sub>2</sub> axes by moving the molecule with your mouse and test by carrying out the 
+ <script>
+jmolButton("move 0 0 -180 0 0 0 0 0 2", "C2 operation")
+</script> (without resetting first)</strong></font>
+<br />
+Some Potentially Useful Viewing Tools:<br />
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select hydrogen; spacefill 0.25; Set bondmode or; Select hydrogen; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+<script>
+jmolButton("select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1; select all; color cpk"
+		,"Restore All Atoms and colors")
+</script>
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset")
+</script>
+<script type="text/javascript">
+jmolCheckbox("spin on", "spin off"
+		,"Spin")
+</script>
+<script>
+jmolButton("select oxygen; spacefill 0.0; select atomno=2; color orange; select atomno=18; color orange; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off"
+		,"Simplify the NO2 groups")
+</script><br />
+<small>Reference:  CCDC Structure HARBAD; R.J. Geve, L.M. Englehardt, J. M. Harrowfield
+A.M. Sargenson, A. H. White <i>Aust. J. Chem.</i> Vol 46, <b>1993</b>, p. 1485</small>
+
+</td></tr>
+<tr>
+<td>
+<script>
+jmolApplet(300,"load ModHARBAD-A.mol; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+<strong> Top View</strong></td> 
+<td>  
+
+<strong>To View the C<sub>3</sub> rotations:</strong><br /><br />
+First 
+<script>
+jmolButton("spin off; reset; center atomno=1", "Reset")
+</script>
+Then,
+<script>
+jmolButton("move 0 0 -120 0 0 0 0 0 2", "Carry out the C3")
+</script><br />
+<b>OR</b>
+To View the C<sub>3</sub><sup>2</sup>:<br />
+First 
+<script>
+jmolButton("spin off; reset; center atomno=1", "Reset")
+</script>
+Then,
+<script>
+jmolButton("move 0 0 -120 0 0 0 0 0 2; delay 1; move 0 0 -120 0 0 0 0 0 2", "Carry out the C3 taken twice")
+</script>
+
+
+<br />
+Some Potentially Useful Viewing Tools:<br />
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; Select hydrogen; wireframe off", "select hydrogen; spacefill 0.25; Set bondmode or; Select hydrogen; wireframe 0.1"
+		,"Ignore Hydrogens")
+</script>
+
+<script>
+jmolButton("select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1; select all; color cpk"
+		,"Restore All Atoms and colors")
+</script>
+
+<script>
+jmolButton("spin off; reset; center atomno=1"
+		,"Reset")
+</script>
+<script type="text/javascript">
+jmolCheckbox("spin on", "spin off"
+		,"Spin")
+</script>
+<script>
+jmolButton("select oxygen; spacefill 0.0; select atomno=2; color orange; select atomno=18; color orange; select atomno=2; spacefill 0.40; select atomno=18; spacefill 0.40; set bondmode or; select oxygen; wireframe off"
+		,"Simplify the NO2 groups")
+</script><br />
+<font color = "#CC0000"><strong>Your next mission:  determine if this is a &Lambda; or &Delta; Enantiomer <br />
+and determine if the ligands have &lambda; or &delta; twists<br />
+go to <a href="Index-MTC.html ">The Structure and Symmetry of Metal Tris Chelates</a> for help on this.</strong></font><br />
+<br />
+<font color = "#CC0000"><strong> Using your understanding of the symmetry properties of Co(diNOsar)<sup>3+</sup>,<br /> 
+now look for <a href= "CodiNONMRChemEquiv.html">chemical equivalence</a> and magnetic inequivalence for sets of protons in the molecule</strong><font>
+
+
+
+
+</td>
+      </tr>
+    </table>
+    <a href="Index-CC.html">Return to Index</a>
+  </body>
+</html>

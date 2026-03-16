@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head><title>CoDino-for NMR Assignments</title>
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+  </head>
+  <body>
+    <table border="1">
+
+      <tr>
+	<td>
+<script type="text/javascript">
+jmolApplet(500,"load FragmentCoDino-New.mol; spacefill 0.25; wireframe 0.1")
+</script> </td>      
+	<td>
+	 <h2>A Fragment of the Unique Atoms in [Co(diNOsar)]<sup>3+</sup></h2><br />
+
+
+Viewing tools:
+<script>
+jmolCheckbox("spin on", "Spin off"
+		,"Spin")
+</script>
+<script>
+jmolButton("select oxygen; spacefill 0.0; select atomno=1; color orange; select atomno=1; spacefill 0.30; set bondmode or; select oxygen; wireframe off"
+		,"Simplify the NO2 group")
+</script><br >
+<script>
+jmolButton("select atomno=8; color cpk; color translucent"
+		,"ghost the N-H proton")
+</script> Which has been replaced by D since we are in D<sub>2</sub>O<br />
+
+<script>
+jmolButton("reset; move 0 -50 0 0 0 0 0 0 1; move -20 0 0 0 0 0 0 0 1", "View A")
+</script> Consistent with our Figures<br />
+<script>
+jmolButton("reset; move 95 0 0 0 0 0 0 0 1; move 0 -60 0 0 0 0 0 0 1", "View B")
+</script> <b>Top View, Like a Newman Projection</b><br />
+
+
+<br />
+<strong>For consistency, we will label the following atoms</strong>
+<ul>
+<li>
+<script>
+jmolButton("select atomno=11; color yellow; select atomno=11; label Hb; color label black"
+		,"color the Hb proton yellow")
+</script>
+</li>
+
+<li>
+<script>
+jmolButton("select atomno=12; color lime; select atomno=12; label Ha; color label black"
+		,"color the Ha proton lime")
+</script>
+</li>
+<li>
+<script>
+jmolButton("select atomno=7; color black"
+		,"color the C-2 carbon black")
+</script><br /><br />
+</li>
+
+<font color = "#CC0000"><strong>Your Mission: <br />
+<ol>
+<li>
+Assign the Y proton as H<sub>c</sub> or H<sub>d</sub></strong></font><br />
+For consistency over the class <b> label the proton with similar interactions to both H<sub>a</sub> and to H<sub>b</sub> 
+as H<sub>c</sub><br />
+and the proton that has one weaker and one stronger interaction (to H<sub>a</sub> and H<sub>b</sub>) as the H<sub>d</sub> proton </b><br />
+
+<script>
+jmolButton("select atomno=9; color magenta; select atomno=9; label H?; color label black"
+		,"Highlight the Y protons")
+</script><br /></li>
+<li><font color = "#CC0000"><strong>Assign the Z proton as H<sub>c</sub> or H<sub>d</sub></strong></font>
+<script>
+jmolButton("select atomno=10; color pink; select atomno=10; label H?; color label black"
+		,"Highlight the Z proton")
+</script><br /></li>
+
+<li><font color = "#CC0000"><strong>Have your TA or Instructor check your final labeling scheme.</li><br />
+<li>Finally:<br />
+Using the HETCOR, COSY and NOESY for your Co(diNOsar)Br<sub>3</sub> product<br />
+and the HETCOR and COSY for d<sup>12</sup>-Co(diNOsar)Br<sub>3</sub><br /><br />
+
+Assign all peaks on the 1D spectra as arising from C<sub>1</sub>, C<sub>2</sub>,
+H<sub>a</sub>, H<sub>b</sub>, H<sub>c</sub>, or H<sub>d</sub> and then all cross peaks in the 2D NMR spectra as arising from
+pairs of nuclei using this same numbering/lettering scheme</strong></font></li>
+</ol>
+<br />
+
+<script>
+jmolButton("select all; color cpk; select all; spacefill 0.25; select all; wireframe 0.1; select all; labels off"
+		,"Remove Colors and Labels")
+</script><br />
+</span>
+
+Reference:  CCDC Structure HARBAD; R.J. Geve, L.M. Englehardt, J. M. Harrowfield<br />
+A.M. Sargenson, A. H. White <i>Aust. J. Chem.</i> Vol 46, <b>1993</b>, p. 1485
+
+<br />
+<br />
+
+
+</td>
+      </tr>
+    </table>
+    <a href="Index-CC.html">Return to Index</a>
+  </body>
+</html>
