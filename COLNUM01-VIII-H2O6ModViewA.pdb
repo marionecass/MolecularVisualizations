@@ -1,0 +1,44 @@
+TITLE      CSD ENTRY COLNUM01
+REMARK   1 File created by GaussView 5.0.9
+HETATM    1  V1  UNK 0   1      -0.000   0.000   0.000                       V
+HETATM    2  O1  UNK 0   1       1.265  -0.256   1.516                       O
+HETATM    3  O2  UNK 0   1      -1.553  -0.241   1.201                       O
+HETATM    4  O3  UNK 0   1       0.014  -1.963  -0.448                       O
+HETATM    5  H1  UNK 0   1       2.037  -0.862   1.449                       H
+HETATM    6  H2  UNK 0   1       1.328   0.316   2.314                       H
+HETATM    7  H3  UNK 0   1      -2.422  -0.656   0.930                       H
+HETATM    8  H4  UNK 0   1      -1.668   0.259   2.029                       H
+HETATM    9  H5  UNK 0   1      -0.831  -2.456  -0.620                       H
+HETATM   10  H6  UNK 0   1       0.820  -2.490  -0.614                       H
+TER      11      UNK 0   1
+HETATM   12  O1  UNK 1   1      -1.265   0.256  -1.516                       O
+HETATM   13  O2  UNK 1   1       1.553   0.241  -1.201                       O
+HETATM   14  O3  UNK 1   1      -0.014   1.963   0.448                       O
+HETATM   15  H1  UNK 1   1      -2.037   0.862  -1.449                       H
+HETATM   16  H2  UNK 1   1      -1.328  -0.316  -2.314                       H
+HETATM   17  H3  UNK 1   1       2.422   0.656  -0.930                       H
+HETATM   18  H4  UNK 1   1       1.668  -0.259  -2.029                       H
+HETATM   19  H5  UNK 1   1       0.831   2.456   0.620                       H
+HETATM   20  H6  UNK 1   1      -0.820   2.490   0.614                       H
+TER      20      UNK 1   1
+END
+CONECT    1    2    3    4   12
+CONECT    1   13   14
+CONECT    2    1    5    6
+CONECT    3    1    7    8
+CONECT    4    1    9   10
+CONECT    5    2
+CONECT    6    2
+CONECT    7    3
+CONECT    8    3
+CONECT    9    4
+CONECT   10    4
+CONECT   12    1   15   16
+CONECT   13    1   17   18
+CONECT   14    1   19   20
+CONECT   15   12
+CONECT   16   12
+CONECT   17   13
+CONECT   18   13
+CONECT   19   14
+CONECT   20   14

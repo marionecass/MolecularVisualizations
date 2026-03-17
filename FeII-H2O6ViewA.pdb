@@ -1,0 +1,42 @@
+TITLE      CSD ENTRY AMITAR
+REMARK   1 File created by GaussView 5.0.9
+HETATM    1 Fe           0       0.000  -0.000  -0.000                      Fe
+HETATM    2  O           0      -0.004  -2.037  -0.343                       O
+HETATM    3  O           0      -1.441   0.190  -1.409                       O
+HETATM    4  O           0       1.385   0.336  -1.495                       O
+HETATM    5  H           0       0.791  -2.475  -0.338                       H
+HETATM    6  H           0      -0.482  -2.353  -1.042                       H
+HETATM    7  H           0      -2.331   0.168  -1.244                       H
+HETATM    8  H           0      -1.308   0.783  -2.070                       H
+HETATM    9  H           0       1.774  -0.337  -1.974                       H
+HETATM   10  H           0       1.921   1.064  -1.622                       H
+HETATM   11  O           0       0.004   2.037   0.343                       O
+HETATM   12  H           0      -0.791   2.475   0.338                       H
+HETATM   13  H           0       0.482   2.353   1.042                       H
+HETATM   14  O           0       1.441  -0.190   1.409                       O
+HETATM   15  H           0       2.331  -0.168   1.244                       H
+HETATM   16  H           0       1.308  -0.783   2.070                       H
+HETATM   17  O           0      -1.385  -0.336   1.495                       O
+HETATM   18  H           0      -1.774   0.337   1.974                       H
+HETATM   19  H           0      -1.921  -1.064   1.622                       H
+END
+CONECT    1    2    3    4   11
+CONECT    1   14   17
+CONECT    2    1    5    6
+CONECT    3    1    7    8
+CONECT    4    1    9   10
+CONECT    5    2
+CONECT    6    2
+CONECT    7    3
+CONECT    8    3
+CONECT    9    4
+CONECT   10    4
+CONECT   11    1   12   13
+CONECT   12   11
+CONECT   13   11
+CONECT   14    1   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17    1   18   19
+CONECT   18   17
+CONECT   19   17

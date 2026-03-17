@@ -1,0 +1,238 @@
+<html>
+  <head>
+  <title>Jahn Teller Distorted?</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>   
+
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+ span.c6 {font-size: 130%}
+</style>
+
+  </head>
+  <body>
+
+
+  <h2>Are these molecules Jahn-Teller Distorted? A Problem Set<sup>**</sup></h2>
+  
+
+    <table border="1">
+    <tr>
+<td>
+<script>
+
+jmolApplet(400,"load AJIDON-CoIIH2O6-Mod-ViewA.pdb; spacefill 0.25; wireframe 0.1")
+</script> <br />
+      
+    <strong>The [Co(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup> Cation</strong><br />
+
+
+<font color = "#CC0000"><strong>Do you expect this complex ion to have a Jahn-Teller Distortion?  <br />
+Explain why or why not.</strong></font><br />
+<br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+To simplify:
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe 0.0", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br /><br />
+
+Reference:  CSD Code: AJIDON <br />
+W. Zhang, Y.T. Chen.<br />
+<i>Acta Crystallogr., Sect E: Struct. Rep. Online</i>, Vol 65 p m1548, <b>2009</b><br />
+R = 2.52 <br />
+
+The reported average uncertainty in (C-C) bond lengths range from 0.001 to 0.005 &Aring; <br />
+<small>And note, there are no C-C bonds in this complex ion however the ion co-crystallized with a anion having C-C bonds</small>
+<br />
+<font color = "#CC0000"><strong>Does this molecule exhibit a Jahn-Teller Distortion?</font></strong><br />
+Be sure to note if the relevant bond lengths you are comparing either fall within experimental error of each other or are different enough outside of the experimental error to justify your answers
+in all answers<br />
+<b>To determine bond lengths:</b><br />
+You can either click (some platforms you need to right click) on the Jsmol icon and choose Measurements<br />
+You can use the tools provided such as "Display Measurements" <br />
+You can also choose if your distances are reported in Angstroms, nanometers or picometers<br />
+<b>We have found we obtain the highest number of significant figures if we measure in picometers</b>
+ 
+
+</td>
+
+<td>
+<script>
+
+jmolApplet(400,"load ASAWOH01-CoIII-NH36-Mod.pdb; spacefill 0.25; wireframe 0.1")
+</script> <br />
+      
+    <strong>The [Co(NH<sub>3</sub>)<sub>6</sub>]<sup>3+</sup> Cation</strong><br />
+
+
+<font color = "#CC0000"><strong>Do you expect this complex ion to have a Jahn-Teller Distortion?  <br />
+Explain why or why not.</strong></font><br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+To simplify:
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe 0.0", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br /><br />
+Reference:  CSD Code: ASAWOH01 <br />
+R. W. Seidel, R. Goddard, V. Gramm, U. Ruschewitz<br />
+<i>Z. Naturforsch., B: Chem.Sci.</i>, Vol, 69, p 277, <b>2014</b><br />
+
+R = 5.55<br />
+
+The reported uncertainty in bond lengths range from 0.006 to 0.010 &Aring; <br />
+<font color = "#CC0000"><strong>Does this molecule exhibit a Jahn-Teller Distortion?</font></strong><br />
+<br />
+
+
+</td>
+
+</tr>
+<tr>
+<td>
+<script>
+jmolApplet(400,"load FeIII-H2O6ViewA.pdb; select all; spacefill 0.25; wireframe 0.1")
+</script> <br /> 
+    <strong>The Fe(H<sub>2</sub>O)<sub>6</sub><sup>3+</sup> Cation</strong><br />
+<font color = "#CC0000"><strong>Do you expect this complex ion to have a Jahn-Teller Distortion?  <br />
+Explain why or why not.</strong></font><br />
+
+
+    
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+To simplify: 
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe 0.0", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br /><br />
+Reference:  CSD Code:  KAPJAO<br />
+C.Nitschke, M.Kockerling<br />
+<i>Inorg. Chem</i>, Vol 50, p. 4313, <b> 2011 </b> <br />
+R = 2.35<br />
+The authors reported the uncertainty in the Fe-O bond lengths as 0.0006 &Aring; <br />
+<font color = "#CC0000"><strong>Does this molecule exhibit a Jahn-Teller Distortion?</font></strong><br />
+<br />
+
+
+
+ </td>
+
+ <td>
+<script>
+jmolApplet(400,"load FeII-H2O6ViewA.pdb; select all; spacefill 0.25; wireframe 0.1")
+</script> <br />
+
+    <strong>The Fe(H<sub>2</sub>O)<sub>6</sub><sup>2+</sup> Cation</strong><br />
+<font color = "#CC0000"><strong>Do you expect this complex ion to have a Jahn-Teller Distortion?  <br />
+Explain why or why not.</strong></font><br />
+
+    
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+To simplify:
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe 0.0", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br /><br />
+Reference:  CSD Code: AMITAR<br />
+Hai-Liang Zhu, Dong-Sheng Xia, Qing-Fu Zeng, Zao-Gui Wang, Da-Qi Wang<br />
+<i>Acta Crystallogr., Sect. E: Struct. Rep. Online</i>, Vol 59, m 1020, <b> 2003 </b><br />
+
+R = 4.25<br />
+The authors report uncertainty in bond lengths that range from 0.001 to 0.005 &Aring; <br />
+
+
+<font color = "#CC0000"><strong>Does this molecule exhibit a Jahn-Teller Distortion?</font></strong><br />
+<br />
+
+
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+<script>
+jmolApplet(400,"load FEPSUE-VII-H2O6ModViewA.pdb; select all; spacefill 0.25; wireframe 0.1")
+</script> <br />
+
+     <strong>The V(H<sub>2</sub>O)<sub>6</sub><sup>2+</sup> Cation</strong><br />
+<font color = "#CC0000"><strong>Do you expect this complex ion to have a Jahn-Teller Distortion?  <br />
+Explain why or why not.</strong></font><br />
+
+    
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+To simplify:
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe 0.0", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br /><br />
+Reference:  CSD Code: VEPSUE<br />
+D.G.L. Holt, L.F. Larkworthy, D.C. Povey, G.W. Smith, G.J. Leigh<br />
+<i>Inorg. Chim. Acta</i>, Vol 169, <b>1990</b>, p. 201.<br />
+
+
+R = 4.7<br />
+Uncertainty in bond lengths are not given in the CSD Entry<br />
+<font color = "#CC0000"><strong>Does this molecule exhibit a Jahn-Teller Distortion?</font></strong><br />
+<br />
+
+
+
+ </td>
+ 
+  <td>
+<script>
+jmolApplet(400,"load COLNUM01-VIII-H2O6ModViewA.pdb; select all; spacefill 0.25; wireframe 0.1")
+</script> <br />
+
+     <strong>The V(H<sub>2</sub>O)<sub>6</sub><sup>3+</sup> Cation</strong><br />
+<font color = "#CC0000"><strong>Do you expect this complex ion to have a Jahn-Teller Distortion?  <br />
+Explain why or why not.</strong></font><br />
+
+    
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+To simplify:
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe 0.0", "select all; spacefill 0.25; Set bondmode or; Select all; wireframe 0.1", "Ignore Hydrogens");
+</script><br /><br />
+Reference:  CSD Code: COLNUM01<br />
+ <b>Note: this is a neutron diffraction study</b><br />
+F.A. Cotton, C.K. Fair, G.E. Lewis, G.N. Mott, F.K. Ross, A.J. Schultz, J.M. Williams<br />
+<i>J. Am. Chem. Soc.</i>, Vol 106 , <b>1984</b>, p. 5319<br />
+
+
+R = 6.7<br />
+The authors report the uncertainty in the V-O bond lengths of 0.002 &Aring; <br />
+<font color = "#CC0000"><strong>Does this molecule exhibit a Jahn-Teller Distortion?</font></strong><br />
+<br />
+
+
+
+ </td>
+
+</table>
+** <font color = "#CC0000"><strong>Questions for students are highlighted in red</strong></font><br />
+Note: Each complex ion shown here is the counter ion in a crystalline sample of other molecules/ions
+and is therefore only a <b>subset</b> of the full X-ray or neutron diffraction structure cited<br />
+Also to note: all the structures shown in this problems set, other ions and molecules that are not shown <b>can influence the 3D structures</b>. For the purposes
+of this set of exercises, those influences are small enough to be ignored.
+
+
+
+  </body>
+</html>
