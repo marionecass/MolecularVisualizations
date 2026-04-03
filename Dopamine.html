@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <head>
+  <title>Dopamine and Modified Dopamine</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body> 
+
+     <table border="1">
+      <td>
+     <script type="text/javascript">
+jmolApplet(600,"load Dopamine.mol; select all; labels off; spacefill 0.25; wireframe 0.1")</script><br />
+<b>Dopamine</b> 
+<br /><script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+</td>
+<td>
+
+     <script>
+jmolApplet(600,"load COWTUD.mol; select all; labels off; spacefill 0.25; wireframe 0.1")</script><br />
+<b>A chemically modified form of Dopamine</b> 
+<br />
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+
+</td>
+</table>
+CCDC Codes DOPAMN01, COTWUD
+
+
+
+
+
+
+
+   
+    </table>
+ <a href="Index-Intro.html">Return</a>
+  </body>
+</html>

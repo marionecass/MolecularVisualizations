@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+  <head>
+  <title>AX5 Molecules</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body> 
+ <h2>AX<sub>5</sub> Molecules</h2> 
+    <table border="1">
+<td>
+<script type="text/javascript">
+jmolApplet(300,"load PF5A.pdb; spacefill 0.25; wireframe 0.1; center atomno=1")
+</script> <br />
+ <table border ="1">       
+<td  valign="top"><span class="c1"><strong>PF<sub>5</sub></strong></span><br />
+<b>Bond Angles:  F-P-F 180.0<sup>o</sup>, 120<sup>o</sup> and 90.0<sup>o</sup></b><br />
+
+
+<script type="text/javascript">
+jmolCheckbox("spin on", "spin off"
+		,"Spin")
+</script>
+
+</td></table></td>
+
+
+<td>
+<script type="text/javascript">
+jmolApplet(300,"load ClF5.mol; select all; spacefill 0.25; wireframe 0.1; center atomno=2")
+</script> <br />
+ <table border ="1"> 
+    <td  valign="top"><span class="c1"><strong>ClF<sub>5</sub></strong></span><br />
+    <b>Bond Angles:  F-Cl-F 172.0<sup>o</sup> and 86.0<sup>o</sup></b><br />
+    
+<script type="text/javascript">
+jmolCheckbox("spin on", "spin off"
+		,"Spin")
+</script>
+
+
+ </td>
+</table>
+</td>
+
+
+</tr>
+</table>
+<a href="Index-Intro.html">Return</a>
+
+  </body>
+</html>
