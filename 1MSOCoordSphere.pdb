@@ -1,0 +1,70 @@
+TITLE      T6 HUMAN INSULIN AT 1.0 A RESOLUTION
+REMARK   1 File created by GaussView 5.0.9
+HETATM    1  C           0      -3.234   2.230   6.496                       C
+HETATM    2  N           0      -3.012   1.275   5.529                       N
+HETATM    3  C           0      -2.320   1.988   7.472                       C
+HETATM    4  C           0      -2.010   0.491   5.920                       C
+HETATM    5  N           0      -1.577   0.892   7.097                       N
+HETATM    6 Zn           0       0.000   0.000   8.145                      Zn
+HETATM    7  O           0      -1.190  -0.728   9.851                       O
+HETATM    8  C           0      -0.314  -3.916   6.496                       C
+HETATM    9  N           0       0.402  -3.246   5.529                       N
+HETATM   10  C           0      -0.562  -3.003   7.472                       C
+HETATM   11  C           0       0.580  -1.986   5.920                       C
+HETATM   12  N           0       0.016  -1.812   7.097                       N
+HETATM   13 Zn           0       0.000   0.000   8.145                      Zn
+HETATM   14  O           0       1.226  -0.667   9.851                       O
+HETATM   15  C           0       3.548   1.686   6.496                       C
+HETATM   16  N           0       2.610   1.971   5.529                       N
+HETATM   17  C           0       2.882   1.015   7.472                       C
+HETATM   18  C           0       1.430   1.495   5.920                       C
+HETATM   19  N           0       1.561   0.920   7.097                       N
+HETATM   20 Zn           0       0.000   0.000   8.145                      Zn
+HETATM   21  O           0      -0.035   1.395   9.851                       O
+HETATM   22  H           0       4.587   1.940   6.482                       H
+HETATM   23  H           0      -3.974   3.003   6.482                       H
+HETATM   24  H           0      -2.211   2.559   8.370                       H
+HETATM   25  H           0      -3.511   1.179   4.668                       H
+HETATM   26  H           0       3.322   0.635   8.370                       H
+HETATM   27  H           0       2.776   2.452   4.668                       H
+HETATM   28  H           0       0.568   1.616   5.297                       H
+HETATM   29  H           0      -1.684  -0.316   5.297                       H
+HETATM   30  H           0       1.116  -1.300   5.297                       H
+HETATM   31  H           0       0.735  -3.631   4.668                       H
+HETATM   32  H           0      -0.613  -4.943   6.482                       H
+HETATM   33  H           0      -1.111  -3.195   8.370                       H
+END
+CONECT    1    2    3   23
+CONECT    2    1    4   25
+CONECT    3    1    5   24
+CONECT    4    2    5   29
+CONECT    5    3    4    6
+CONECT    6    5   13   20   12
+CONECT    6   19    7   21   14
+CONECT    7    6
+CONECT    8    9   10   32
+CONECT    9    8   11   31
+CONECT   10    8   12   33
+CONECT   11    9   12   30
+CONECT   12    6   10   11
+CONECT   13    6   20
+CONECT   14    6
+CONECT   15   16   17   22
+CONECT   16   15   18   27
+CONECT   17   15   19   26
+CONECT   18   16   19   28
+CONECT   19    6   17   18
+CONECT   20    6   13
+CONECT   21    6
+CONECT   22   15
+CONECT   23    1
+CONECT   24    3
+CONECT   25    2
+CONECT   26   17
+CONECT   27   16
+CONECT   28   18
+CONECT   29    4
+CONECT   30   11
+CONECT   31    9
+CONECT   32    8
+CONECT   33   10
