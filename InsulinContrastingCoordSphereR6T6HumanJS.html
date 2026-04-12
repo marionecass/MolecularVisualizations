@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Insulin: Contrasting Coordination Sphere Human R6 and T6 </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+  </head>
+  <body>
+ 
+  <h2> Contrasting R<sub>6</sub> and T<sub>6</sub> Human Insulin </h2>
+  <Strong> Highlighting the Zinc Coordination Sphere</strong>
+
+    <table border="1">
+<td>
+<script type="text/javascript">
+jmolApplet(400,"load 1EVRZnTet4.pdb; center atomno=16; select all; spacefill 0.25; color cpk; wireframe 0.1; background white");
+</script> <br />     
+<h4>Zn Coordination Sphere in R<sub>6</sub> Insulin (Human)</h4>
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe off", "select all; spacefill 0.25; color cpk; wireframe 0.1", "Remove Hydrogens");
+</script><br />
+<strong>PDB Structure: 1EVR</strong>
+
+
+</td>
+
+<td>
+<script>
+jmolApplet(400,"load 1MSOCoordSphere.pdb; center atomno=20; select all; spacefill 0.25; color cpk; wireframe 0.1; background white");
+</script> <br />     
+<h4>Zn Coordination Sphere in Insulin T<sub>6</sub> (Human)</h4>
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+
+<script>
+jmolCheckbox("select hydrogen; spacefill 0.0; Set bondmode or; select hydrogen; wireframe off", "select all; spacefill 0.25; color cpk; wireframe 0.1", "Remove Hydrogens");
+</script><br />
+<strong>PDB Structure: 1MSO</strong>
+
+</td>
+</table>
+
+  </body>
+</html>

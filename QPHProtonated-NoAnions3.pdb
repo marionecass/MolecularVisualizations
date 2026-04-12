@@ -1,0 +1,48 @@
+REMARK   This PDB file was created by CS Chem3D.
+SEQRES   1     41  UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK 
+SEQRES   2     41  UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK 
+SEQRES   3     41  UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK 
+SEQRES   4     41  UNK UNK
+HETATM    1  O1  UNK     1       2.313   5.647   7.601                       O 
+HETATM    2  O2  UNK     2       3.443   7.502   8.142                       O 
+HETATM    3  N1  UNK     3       3.562   3.398   7.659                       N 
+HETATM    4  H1  UNK     4       2.756   3.776   7.663                       H 
+HETATM    5  N2  UNK     5       4.647   4.130   7.765                       N 
+HETATM    6  N3  UNK     6       1.249   2.146   7.450                       N 
+HETATM    7  N4  UNK     7       7.004   5.160   8.050                       N 
+HETATM    8  H4  UNK     8       6.833   4.295   8.064                       H 
+HETATM    9  C1  UNK     9       4.629   5.436   7.857                       C 
+HETATM   10  C2  UNK    10       3.434   6.328   7.884                       C 
+HETATM   11  C3  UNK    11       1.067   6.414   7.591                       C 
+HETATM   12  H3A UNK    12       1.095   7.106   6.884                       H 
+HETATM   13  H3B UNK    13       0.930   6.860   8.464                       H 
+HETATM   14  C4  UNK    14      -0.042   5.445   7.324                       C 
+HETATM   15  H4A UNK    15       0.100   5.015   6.455                       H 
+HETATM   16  H4B UNK    16      -0.899   5.922   7.315                       H 
+HETATM   17  H4C UNK    17      -0.057   4.762   8.028                       H 
+HETATM   18  C5  UNK    18       3.625   2.007   7.594                       C 
+HETATM   19  C6  UNK    19       4.787   1.280   7.653                       C 
+HETATM   20  H6  UNK    20       5.624   1.718   7.748                       H 
+HETATM   21  C7  UNK    21       4.726  -0.118   7.570                       C 
+HETATM   22  H7  UNK    22       5.532  -0.621   7.597                       H 
+HETATM   23  C8  UNK    23       3.534  -0.772   7.450                       C 
+HETATM   24  H8  UNK    24       3.521  -1.720   7.390                       H 
+HETATM   25  C9  UNK    25       2.326  -0.054   7.414                       C 
+HETATM   26  C10 UNK    26       1.046  -0.650   7.325                       C 
+HETATM   27  H10 UNK    27       0.962  -1.596   7.279                       H 
+HETATM   28  C11 UNK    28      -0.059   0.132   7.304                       C 
+HETATM   29  H11 UNK    29      -0.922  -0.259   7.249                       H 
+HETATM   30  C12 UNK    30       0.085   1.527   7.365                       C 
+HETATM   31  H12 UNK    31      -0.704   2.059   7.344                       H 
+HETATM   32  C13 UNK    32       2.364   1.358   7.479                       C 
+HETATM   33  C14 UNK    33       5.971   6.030   7.980                       C 
+HETATM   34  C15 UNK    34       6.295   7.376   8.021                       C 
+HETATM   35  H15 UNK    35       5.604   8.029   7.995                       H 
+HETATM   36  C16 UNK    36       7.612   7.774   8.099                       C 
+HETATM   37  H16 UNK    37       7.823   8.699   8.136                       H 
+HETATM   38  C17 UNK    38       8.629   6.843   8.126                       C 
+HETATM   39  H17 UNK    39       9.539   7.113   8.149                       H 
+HETATM   40  C18 UNK    40       8.292   5.521   8.117                       C 
+HETATM   41  H18 UNK    41       8.970   4.857   8.159                       H 
+TER
+END

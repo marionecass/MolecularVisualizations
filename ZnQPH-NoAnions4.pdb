@@ -1,0 +1,108 @@
+REMARK   This PDB file was created by CS Chem3D.
+SEQRES   1 0    1  UNK
+HETATM    1  O1  UNK 0   1       8.191  10.396   8.810                       O 
+HETATM    2  O2  UNK 0   1       6.361   9.319  10.575                       O 
+HETATM    3  C19 UNK 0   1       3.834   8.694   6.803                       C 
+HETATM    4  C16 UNK 0   1      14.279   9.919   9.017                       C 
+HETATM    5  F3  UNK 0   1       2.998   9.318   6.002                       F 
+HETATM    6  F2  UNK 0   1       3.550   9.035   8.033                       F 
+HETATM    7  F1  UNK 0   1       3.637   7.395   6.701                       F 
+HETATM    8  H18 UNK 0   1      13.668  13.004   8.308                       H 
+HETATM    9  C18 UNK 0   1      13.510  12.088   8.508                       C 
+HETATM   10  S1  UNK 0   1       5.543   9.108   6.378                       S 
+HETATM   11 Zn1  UNK 0   1       7.384   8.526   9.102                       ZN
+HETATM   12  C12 UNK 0   1       5.948   5.812   9.558                       C 
+HETATM   13  H17 UNK 0   1      15.440  11.591   8.774                       H 
+HETATM   14  O5  UNK 0   1       5.747   8.547   5.080                       O 
+HETATM   15  O6  UNK 0   1       5.593  10.537   6.484                       O 
+HETATM   16  C17 UNK 0   1      14.548  11.264   8.765                       C 
+HETATM   17  H15 UNK 0   1      12.820   8.540   9.213                       H 
+HETATM   18  H16 UNK 0   1      14.998   9.315   9.176                       H 
+HETATM   19  C11 UNK 0   1       5.893   4.416   9.654                       C 
+HETATM   20  O4  UNK 0   1       6.302   8.418   7.398                       O 
+HETATM   21  C14 UNK 0   1      11.914  10.325   8.799                       C 
+HETATM   22  C13 UNK 0   1       8.247   5.769   9.273                       C 
+HETATM   23  C10 UNK 0   1       7.044   3.694   9.547                       C 
+HETATM   24  H11 UNK 0   1       9.552   2.748   9.358                       H 
+HETATM   25  C8  UNK 0   1       9.518   3.693   9.291                       C 
+HETATM   26  C9  UNK 0   1       8.281   4.357   9.366                       C 
+HETATM   27  H14 UNK 0   1       5.140   6.304   9.633                       H 
+HETATM   28  C15 UNK 0   1      12.988   9.458   9.038                       C 
+HETATM   29  H10 UNK 0   1      11.501   3.953   9.073                       H 
+HETATM   30  H8  UNK 0   1       7.336  12.351   7.422                       H 
+HETATM   31  C5  UNK 0   1       9.462   6.500   9.101                       C 
+HETATM   32  H4  UNK 0   1       8.929  13.904   9.191                       H 
+HETATM   33  C4  UNK 0   1       7.782  13.194   7.647                       C 
+HETATM   34  C3  UNK 0   1       8.558  13.027   8.919                       C 
+HETATM   35  H9  UNK 0   1      11.464   6.294   8.901                       H 
+HETATM   36  H5  UNK 0   1       7.947  12.721   9.635                       H 
+HETATM   37  C1  UNK 0   1      10.518   9.872   8.838                       C 
+HETATM   38  C2  UNK 0   1       9.361  10.764   8.805                       C 
+HETATM   39  H3  UNK 0   1      11.714  12.067   8.360                       H 
+HETATM   40  C6  UNK 0   1      10.650   5.817   9.023                       C 
+HETATM   41  N4  UNK 0   1      12.238  11.606   8.531                       N 
+HETATM   42  C7  UNK 0   1      10.671   4.413   9.123                       C 
+HETATM   43  H13 UNK 0   1       5.062   3.976   9.794                       H 
+HETATM   44  H12 UNK 0   1       7.015   2.746   9.595                       H 
+HETATM   45  N2  UNK 0   1      10.443   8.541   8.944                       N 
+HETATM   46  N3  UNK 0   1       7.079   6.476   9.367                       N 
+HETATM   47  H7  UNK 0   1       7.108  13.897   7.763                       H 
+HETATM   48  N1  UNK 0   1       9.311   7.905   9.018                       N 
+HETATM   49  O3  UNK 0   1       9.662  12.057   8.774                       O 
+HETATM   50  H6  UNK 0   1       8.391  13.443   6.920                       H 
+HETATM   51  H2  UNK 0   1       6.661   9.775  11.007                       H 
+HETATM   52  H1  UNK 0   1       5.546   9.034  10.855                       H 
+TER
+CONECT    1   38   11
+CONECT    2   51   52   11
+CONECT    3    5    6    7   10
+CONECT    4   16   18   28
+CONECT    5    3
+CONECT    6    3
+CONECT    7    3
+CONECT    8    9
+CONECT    9    8   16   41
+CONECT   10   14    3   20   15
+CONECT   11   46   48   20    2    1
+CONECT   12   27   19   46
+CONECT   13   16
+CONECT   14   10
+CONECT   15   10
+CONECT   16    9   13    4
+CONECT   17   28
+CONECT   18    4
+CONECT   19   12   43   23
+CONECT   20   10   11
+CONECT   21   28   37   41
+CONECT   22   26   31   46
+CONECT   23   19   44   26
+CONECT   24   25
+CONECT   25   26   24   42
+CONECT   26   22   23   25
+CONECT   27   12
+CONECT   28    4   17   21
+CONECT   29   42
+CONECT   30   33
+CONECT   31   22   40   48
+CONECT   32   34
+CONECT   33   30   34   47   50
+CONECT   34   33   36   32   49
+CONECT   35   40
+CONECT   36   34
+CONECT   37   21   38   45
+CONECT   38   37   49    1
+CONECT   39   41
+CONECT   40   42   35   31
+CONECT   41    9   21   39
+CONECT   42   25   29   40
+CONECT   43   19
+CONECT   44   23
+CONECT   45   37   48
+CONECT   46   22   12   11
+CONECT   47   33
+CONECT   48   31   45   11
+CONECT   49   34   38
+CONECT   50   33
+CONECT   51    2
+CONECT   52    2
+END

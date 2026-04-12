@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Hg-MerB</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+  </head>
+  <body>
+
+
+    <table border="1">
+    <tr>
+<td>
+<script type="text/javascript">
+jmolApplet(600,"load 3FN8.pdb; center atomno=1609; select all; spacefill 0.25; wireframe 0.1; background white")
+</script> <br /> 
+</td>
+<td>
+<h3>Hg bound to MerB</h3>  
+
+<strong> X-ray Crystal structure resolved to 1.88 &Aring <br />
+PDB structure:  3FN8;  <br />
+Momany, C., Summers, A., Cagle, C. Teske, J.,<br />
+(released 2009, modified 2011) <i>To Be Published</i></strong>
+<br /><br />  
+
+<script>
+jmolCheckbox("select protein; spacefill off; wireframe off; cartoons on; color translucent; select HELIX; spacefill off; wireframe off; cartoons on; color lightblue; color translucent; select SHEET; spacefill off; wireframe off; cartoons on; color PINK; color translucent; select mercury; spacefill 0.75; color cpk; select CYS; spacefill 0.35; wireframe 0.1; select CYS; color lightblue; color translucent; select ASP99; spacefill 0.35; wireframe 0.1; select ASP99; color translucent; color lightblue; select atomno=1214; color opaque; color cpk; select atomno=1215; color cpk; color opaque; select atomno=760; color cpk; color opaque; select atomno=761; color cpk; color opaque; select atomno=1222; color cpk; color opaque; select atomno=1223; color cpk; color opaque; select atomno=916; color cpk; color opaque; select atomno=917; color cpk; color opaque; select atomno=780; color cpk; color opaque; select atomno=781; color cpk; color opaque; select atomno=782; color cpk; color opaque", "select all; cartoons off; color cpk; spacefill 0.25; wireframe 0.1", "Our preferred representation");
+</script><br />
+
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script>
+<script>
+jmolButton("reset; select all; spacefill 0.25; wireframe 0.1; select all; color cpk; color opaque; cartoons off", "Reset");
+</script><br />
+<script>
+jmolCheckbox("select GOL; spacefill 0.0; wireframe off", "select GOL; spacefill 0.25; wireframe 0.1; color cpk", "Remove Free Glycerol Molecule");
+</script>
+<br />
+<script>
+jmolCheckbox("select HOH; spacefill 0.0; wireframe off", "select HOH; spacefill 0.25; color cpk", "Remove Free Water Molecules");
+</script><br />
+<script>
+jmolButton("move 0 0 0 300 0 0 0 0 1", "Zoom in on the Central Hg atom");
+</script>
+<br />
+<br />
+
+
+
+
+<strong>(Also Note; at any time you can use your mouse to move the molecule<br /> or click on the JSmol icon to use JSmol tools)</strong><br />
+
+
+
+ 
+
+
+
+</td>
+</tr>
+    </table>
+  </body>
+</html>

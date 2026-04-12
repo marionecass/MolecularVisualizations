@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+  <title>Carbonic Anhydrase</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+   
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+
+    <table border="1">
+    <tr>
+<td>
+<script type="text/javascript">
+jmolApplet(600, "load 1CA2.pdb1; spacefill 0.25; wireframe 0.1; cartoons off; center atomno=2041")
+</script> <br />     
+</td>
+
+
+
+<td>
+
+<strong>Carbonic Anhydrase</strong><br /><br /><br />
+
+Refined X-ray crystal structure of human carbonic anhydrase II <br />at 2.0 A resolution.<br />
+
+Reference:  PDB Code 1CA2:  <br />
+Eriksson, A.E.,  Jones, T.A.,  Liljas, A.,<br />
+ <b>1988</b> <i>Proteins</i> Vol 4: 274-282, <br />
+DOI: 10.1002/prot.340040406 <br /><br /><br />
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br /><br />
+<script>
+jmolButton("reset", "Reset orientation");
+</script><br /> <br />
+
+<script>
+jmolCheckbox("select protein; spacefill off; wireframe off; cartoons on; color translucent; select HELIX; spacefill off; wireframe off; cartoons on; color lime; color translucent; select SHEET; spacefill off; wireframe off; cartoons on; color PINK; color translucent; select zinc; spacefill 0.75; select HIS119; spacefill 0.50; wireframe 0.1; color cpk; select HIS96; spacefill 0.50; wireframe 0.1; color cpk; select HIS94; spacefill 0.50; wireframe 0.1; color cpk; select HOH263; spacefill 0.50; wireframe 0.1; color cpk; select atomno=723; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=725; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=726; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=724; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=927; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=926; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=925; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=924; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=744; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=745; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=746; spacefill 0.35; wireframe 0.1; color pink; color translucent; select atomno=747; spacefill 0.35; wireframe 0.1; color pink; color translucent", "select all; spacefill 0.25; wireframe 0.1; color cpk; cartoons off", "Our preferred representation");
+</script><br /><br />
+
+<script>
+jmolCheckbox("reset; move -45 0 0 0 0 0 0 0 3; move 0 30 0 0 0 0 0 0 3; move 0 0 0 50 0 0 0 0 3", "reset", "View the Zn center to show 4 Coordinate Geometry");
+</script><br />
+<br />
+<br />
+
+<script>
+jmolCheckbox("select HOH; spacefill 0.0; wireframe off; select HOH263; spacefill 0.35; wireframe 0.1; color cpk", "select HOH; color cpk; spacefill 0.25; wireframe 0.1; select HOH263; spacefill 0.35; wireframe 0.1; color cpk", "Remove Free Water Molecules");
+</script><br />
+
+<strong>(Also Note; at any time you can use your mouse to move the molecule<br /> or click on the JSmol icon to use JSmol tools)</strong><br />
+</td>
+</tr>
+
+
+    </table>
+  </body>
+</html>

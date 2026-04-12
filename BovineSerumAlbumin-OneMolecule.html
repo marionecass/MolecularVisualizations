@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <head><title>Bovine Serum Albumin One Molecule</title>
+
+<script type="text/javascript" src="Jmol.js"></script>
+<meta charset="utf-8">
+<style type="text/css">
+ span.c5 {color: #0000CC}
+ span.c4 {color: #FFA500}
+ span.c2 {color: #CC0000}
+ span.c1 {font-size: 100%}
+</style>
+  </head>
+  <body>
+
+    <table border="1">
+<td>
+<script type="text/javascript">
+jmolInitialize(".")
+jmolApplet(600,"load 4F5S-OneRepeatB.pdb; background white; spacefill 0.25; wireframe 0.1; cartoons off")
+</script> <br />     
+</td>
+
+
+
+<td>
+
+<strong>Bovine Serum Albumin</strong><br /><br /><br />
+
+Refined X-ray crystal structure of Bovine Serum Albumin: 2.47 A resolution.<br />
+
+Reference:  PDB Code 4F5S:  <br />
+Bujacz, A. Bujacz, G.;<b>2012</b> <i>Acta Crystallogr., Sect.D</i> 68: 1278-1289<br />
+DOI: 10.1107/S0907444912027047 <br /><br /><br />
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br /><br />
+<script>
+jmolButton("reset", "Reset orientation");
+</script><br /> <br />
+
+<script>
+jmolCheckbox("select protein; spacefill off; wireframe off; cartoons on; color translucent; select HELIX; spacefill off; wireframe off; cartoons on; color lightblue; color translucent; select SHEET; spacefill off; wireframe off; cartoons on; color PINK; color translucent; move -135 0 0 0 0 0 0 0 1", "select all; spacefill 0.25; wireframe 0.1; color cpk; cartoons off", "Our preferred representation");
+</script><br /><br />
+
+
+<br />
+
+<script>
+jmolCheckbox("select HOH; spacefill 0.0; wireframe off", "select HOH; color cpk; spacefill 0.25; wireframe 0.1", "Remove Free Water Molecules");
+</script><br />
+<br /><br />
+
+<script>
+jmolButton("select HIS3; spacefill 0.25; wireframe 0.1; color cpk; select ASP1; spacefill 0.25; wireframe 0.1; color cpk; select THR2; spacefill 0.25; wireframe 0.1; color cpk", "Find The N-Terminal Metal Binding Site Residues");
+</script><br />
+
+<script>
+jmolButton("center atomno=9; move 0 0 0 1500 0 0 0 0 1", "Zoom in on One potential Metal binding Site");
+</script>
+
+<script>
+jmolButton("Select atomno=22; spacefill 0.60; select atomno=16; spacefill 0.60; select atomno=1; spacefill 0.60; select atomno=9; spacefill 0.60", "Enlarge the N Atoms proposed to create the metal binding site");
+</script><br />
+<script>
+jmolCheckbox("select CYS; spacefill 0.25; color cpk; wireframe 0.1", "select CYS; spacefill 0.0; wireframe 0.0", "Highlight all Cysteins");
+</script>
+<script>
+jmolCheckbox("select CYS34; spacefill 0.25; color cpk; wireframe 0.1", "select CYS; spacefill 0.0; wireframe 0.0", "Highlight Cystein 34");
+</script>
+
+
+</td>
+
+
+    </table>
+  </body>
+</html>
