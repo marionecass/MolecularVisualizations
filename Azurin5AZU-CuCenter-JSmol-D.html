@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Azurin-Active Site for Copper</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JSmol.min.js"></script>
+<script type="text/javascript" src="js/Jmol2.js"></script>
+<script type="text/javascript" src="php/jsmol.php"></script>
+
+  </head>
+  <body>
+
+    <table border="1">
+<td>
+<script type="text/javascript">
+jmolApplet(400,"load 5AZU-MO-Model-C-ViewA.pdb; select all; spacefill 0.25; color cpk; wireframe 0.05; select atomno=48; color purple; spacefill 0.35; select atomno=34; color purple; spacefill 0.35; select atomno=47; color purple; spacefill 0.35; select atomno=27; color purple; spacefill 0.35; connect (atomno=22) (atomno=20) PARTIAL CREATE; wireframe 0.05; connect (atomno=22) (atomno=2) PARTIAL CREATE; wireframe 0.05; background white")
+</script> <br />
+  
+<h2>Cu(II)</h2><br />
+Coordination:  His 46, Cys 112, His 117, </br>
+(and Met 121, Gly 45) <br />
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+<script>
+jmolCheckbox("draw plane7 1.0 (atomno=13) (atomno=7) (atomno=15) translucent 0.7 blue on"
+		, "draw plane7 off"
+		, "Show the trigonal plane");
+</script><br />
+<script>
+jmolCheckbox("draw plane1 1.0 (atomno=13) (atomno=15) (atomno=20) translucent 0.7 yellow on; draw plane2 1.0 (atomno=15) (atomno=7) (atomno=20) translucent 0.7 yellow on; draw plane3 1.0 (atomno=13) (atomno=7) (atomno=20) translucent 0.7 yellow on; draw plane4 1.0 (atomno=13) (atomno=15) (atomno=2) translucent 0.7 yellow on; draw plane5 1.0 (atomno=15) (atomno=7) (atomno=2) translucent 0.7 yellow on; draw plane6 1.0 (atomno=13) (atomno=7) (atomno=2) translucent 0.7 yellow on"
+		, "draw plane1 off; draw plane2 off; draw plane3 off; draw plane4 off; draw plane5 off; draw plane6 off"
+		, "Show the pseudo trigonal pyramidal geometry");
+</script><br />
+<script>
+jmolButton("reset"
+		, "Reset to Original Orientation");
+</script><br />
+<script>
+jmolCheckbox("connect (atomno=22) (atomno=20) DELETE; connect (atomno=22) (atomno=2) DELETE"
+		, "connect (atomno=22) (atomno=20) PARTIAL CREATE; connect (atomno=22) (atomno=2) PARTIAL CREATE; select all; wireframe 0.05"
+		, "Remove axial ligands");
+</script><br />
+
+
+</td>
+
+<td>
+<h3>Azurin</h3><br />
+Active site coordination geometry <br />
+Taken from the original crystal structures from <i>Pseudomonas aeruginosa,</i><br /></h3><br />
+PDB Codes <b>5AZU</b> and <b>1E5Z</b><br />
+Note:  Continuation of the protein is represented by a purple atom<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>When the Cu(II) is reduced to Cu(I), 
+</br> the Met 121 moves closer </br>
+and the Gly 45 moves away</h3><br />
+
+
+
+
+
+
+
+<br />
+<br />
+<br />
+
+
+<strong>(Also Note; at any time you can use your mouse to move the molecule<br /> 
+or click on the yellow JSmol icon to use the JSmol tools</strong><br />
+
+
+
+<br />  
+
+
+
+</td>
+<td>
+<script type="text/javascript">
+jmolApplet(400,"load 1E5Z-MO-Model-C-ViewA.pdb; select all; spacefill 0.25; color cpk; wireframe 0.05; connect (atomno=20) (atomno=18) PARTIAL CREATE; wireframe 0.05; select atomno=40; color purple; spacefill 0.35; select atomno=49; color purple; spacefill 0.35; select atomno=39; color purple; spacefill 0.35; select atomno=47; color purple; spacefill 0.35; background white")
+</script> <br />
+  
+<h2>Cu(I)</h2><br />
+Coordination:  His 46, Cys 112, His 117, Met 121, </br>
+(and Gly 45)<br />
+<script>
+jmolCheckbox("spin on", "spin off", "Spin");
+</script><br />
+<script>
+jmolCheckbox("draw plane5 1.0 (atomno=11) (atomno=13) (atomno=6) translucent 0.7 blue on"
+		, "draw plane5 off"
+		, "Show the trigonal plane");
+</script><br />
+<script>
+jmolCheckbox("draw plane1 1.0 (atomno=11) (atomno=13) (atomno=6) translucent 0.7 yellow on; draw plane2 1.0 (atomno=13) (atomno=18) (atomno=11) translucent 0.7 yellow on; draw plane3 1.0 (atomno=11) (atomno=18) (atomno=6) translucent 0.7 yellow on; draw plane4 1.0 (atomno=11) (atomno=13) (atomno=11) translucent 0.7 yellow on;"
+		, "draw plane1 off; draw plane2 off; draw plane3 off; draw plane4 off"
+		, "Show the pseudo tetrahedral geometry");
+</script><br />
+<script>
+jmolButton("reset"
+		, "Reset to Original Orientation");
+</script><br />
+<script>
+jmolCheckbox("connect (atomno=1) (atomno=20) DELETE"
+		, "connect (atomno=1) (atomno=20) PARTIAL CREATE; select all; wireframe 0.05"
+		, "Remove axial ligand");
+</script><br />
+</td>
+    </table>
+  </body>
+</html>
