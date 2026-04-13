@@ -1,0 +1,136 @@
+TITLE      AZURIN FROM PSEUDOMONAS AERUGINOSA, REDUCED FORM, PH 9.0
+REMARK   1 File created by GaussView 6.1.1
+HELIX    1   1 PRO A   40  GLY A   45  1                                   0
+HELIX    2   2 ASP A   55  ALA A   65  1                                   0
+HELIX    3   3 SER A   66  ASP A   71  5                                   0
+HELIX    4   4 SER A  100  LEU A  102  5                                   0
+HELIX    5   5 GLY A  116  LEU A  120  5                                   0
+HELIX    6   6 PRO B   40  GLY B   45  1                                   0
+HELIX    7   7 ASP B   55  GLY B   67  1                                   0
+HELIX    8   8 LEU B   68  ASP B   71  5                                   0
+HELIX    9   9 SER B  100  LEU B  102  5                                   0
+HELIX   10  10 GLY B  116  LEU B  120  5                                   0
+HELIX   11  11 PRO C   40  GLY C   45  1                                   0
+HELIX   12  12 ASP C   55  GLY C   67  1                                   0
+HELIX   13  13 LEU C   68  ASP C   71  5                                   0
+HELIX   14  14 SER C  100  LEU C  102  5                                   0
+HELIX   15  15 GLY C  116  LEU C  120  5                                   0
+HELIX   16  16 PRO D   40  GLY D   45  1                                   1
+HELIX   17  17 ASP D   55  GLY D   67  1                                   0
+HELIX   18  18 LEU D   68  ASP D   71  5                                   0
+HELIX   19  19 SER D  100  LEU D  102  5                                   0
+HELIX   20  20 GLY D  116  LEU D  120  5                                   1
+SHEET    1  AA 3 SER A   4  GLN A   8  0
+SHEET    2  AA 3 GLN A  28  SER A  34  1  O  THR A  30   N  VAL A   5 
+SHEET    3  AA 3 LYS A  92  ASP A  98 -1  O  ASP A  93   N  LEU A  33 
+SHEET    1  AB 5 ALA A  19  ASP A  23  0
+SHEET    2  AB 5 LYS A 122  LYS A 128  1  O  THR A 124   N  ILE A  20 
+SHEET    3  AB 5 TYR A 108  PHE A 111 -1  O  TYR A 108   N  LEU A 125 
+SHEET    4  AB 5 VAL A  49  THR A  52 -1  O  VAL A  49   N  PHE A 111 
+SHEET    5  AB 5 ALA A  82  HIS A  83 -1  O  ALA A  82   N  LEU A  50 
+SHEET    1  BA 3 SER B   4  GLN B   8  0
+SHEET    2  BA 3 GLN B  28  SER B  34  1  O  THR B  30   N  VAL B   5 
+SHEET    3  BA 3 LYS B  92  ASP B  98 -1  O  ASP B  93   N  LEU B  33 
+SHEET    1  BB 5 ALA B  19  VAL B  22  0
+SHEET    2  BB 5 LYS B 122  LEU B 127  1  O  THR B 124   N  ILE B  20 
+SHEET    3  BB 5 TYR B 108  PHE B 111 -1  O  TYR B 108   N  LEU B 125 
+SHEET    4  BB 5 VAL B  49  THR B  52 -1  O  VAL B  49   N  PHE B 111 
+SHEET    5  BB 5 ALA B  82  HIS B  83 -1  O  ALA B  82   N  LEU B  50 
+SHEET    1  CA 3 SER C   4  GLN C   8  0
+SHEET    2  CA 3 GLN C  28  SER C  34  1  O  THR C  30   N  VAL C   5 
+SHEET    3  CA 3 LYS C  92  ASP C  98 -1  O  ASP C  93   N  LEU C  33 
+SHEET    1  CB 5 ALA C  19  ASP C  23  0
+SHEET    2  CB 5 LYS C 122  LYS C 128  1  O  THR C 124   N  ILE C  20 
+SHEET    3  CB 5 TYR C 108  PHE C 111 -1  O  TYR C 108   N  LEU C 125 
+SHEET    4  CB 5 VAL C  49  THR C  52 -1  O  VAL C  49   N  PHE C 111 
+SHEET    5  CB 5 ALA C  82  HIS C  83 -1  O  ALA C  82   N  LEU C  50 
+SHEET    1  DA 3 SER D   4  GLN D   8  0
+SHEET    2  DA 3 GLN D  28  SER D  34  1  O  THR D  30   N  VAL D   5 
+SHEET    3  DA 3 LYS D  92  ASP D  98 -1  O  ASP D  93   N  LEU D  33 
+SHEET    1  DB 5 ALA D  19  VAL D  22  0
+SHEET    2  DB 5 LYS D 122  LEU D 127  1  O  THR D 124   N  ILE D  20 
+SHEET    3  DB 5 TYR D 108  PHE D 111 -1  O  TYR D 108   N  LEU D 125 
+SHEET    4  DB 5 VAL D  49  THR D  52 -1  O  VAL D  49   N  PHE D 111 
+SHEET    5  DB 5 ALA D  82  HIS D  83 -1  O  ALA D  82   N  LEU D  50 
+ATOM      1  O   GLY D  45       5.299  29.451  38.461                       O
+ATOM      2  N   HIS D  46       7.538  29.366  38.486                       N
+ATOM      3  CA  HIS D  46       7.704  30.672  37.869                       C
+ATOM      4  CB  HIS D  46       8.259  31.723  38.829                       C
+ATOM      5  CG  HIS D  46       7.392  31.994  40.067                       C
+ATOM      6  ND1 HIS D  46       6.088  32.210  40.001                       N
+ATOM      7  CD2 HIS D  46       7.838  31.962  41.348                       C
+ATOM      8  CE1 HIS D  46       5.701  32.310  41.255                       C
+ATOM      9  NE2 HIS D  46       6.747  32.159  42.038                       N
+ATOM     10  CB  CYS D 112       5.638  34.531  35.645                       C
+ATOM     11  SG  CYS D 112       5.323  32.796  36.078                       S
+ATOM     12  CG  HIS D 117       1.729  32.814  38.502                       C
+ATOM     13  ND1 HIS D 117       2.846  32.302  38.980                       N
+ATOM     14  CD2 HIS D 117       0.624  32.221  39.044                       C
+ATOM     15  CE1 HIS D 117       2.460  31.375  39.829                       C
+ATOM     16  NE2 HIS D 117       1.136  31.336  39.861                       N
+ATOM     17  CG  MET D 121       4.344  37.021  39.225                       C
+ATOM     18  SD  MET D 121       4.895  35.342  39.555                       S
+ATOM     19  CE  MET D 121       6.619  35.730  39.689                       C
+HETATM   20 CU    CU D 129       4.849  32.604  38.160                      Cu
+ATOM     21 1HB  HIS D  46       8.267  32.640  38.278                       H
+ATOM     22 2HB  HIS D  46       9.175  31.315  39.203                       H
+ATOM     23  HD2 HIS D  46       8.835  31.812  41.704                       H
+ATOM     24  HE2 HIS D  46       6.712  32.191  43.037                       H
+ATOM     25  HE1 HIS D  46       4.698  32.487  41.584                       H
+ATOM     26  HA  HIS D  46       6.752  31.005  37.508                       H
+ATOM     27  HD2 HIS D 117      -0.407  32.429  38.850                       H
+ATOM     28  HE2 HIS D 117       0.601  30.714  40.432                       H
+ATOM     29  HE1 HIS D 117       3.111  30.752  40.404                       H
+ATOM     30 1HG  MET D 121       3.282  37.006  39.356                       H
+ATOM     31 2HG  MET D 121       4.951  37.650  39.843                       H
+ATOM     32 1HE  MET D 121       6.761  36.779  39.537                       H
+ATOM     33 2HE  MET D 121       7.165  35.185  38.947                       H
+ATOM     34 3HE  MET D 121       6.971  35.458  40.662                       H
+ATOM     35 1HB  CYS D 112       6.594  34.767  36.063                       H
+ATOM     36 2HB  CYS D 112       4.770  35.072  35.958                       H
+TER      37      CYS D 112
+HETATM   38  C           0       6.331  28.835  38.717                       C
+HETATM   39  H           0       4.506  37.360  38.223                       H
+HETATM   40  C           0       1.770  33.944  37.457                       C
+HETATM   41  H           0       2.480  34.684  37.759                       H
+HETATM   42  H           0       2.056  33.542  36.508                       H
+HETATM   43  H           0       0.800  34.391  37.377                       H
+HETATM   44  C           0       6.093  27.402  39.230                       C
+HETATM   45  H           0       5.448  26.883  38.551                       H
+HETATM   46  H           0       7.028  26.887  39.297                       H
+HETATM   47  H           0       5.636  27.441  40.197                       H
+HETATM   48  C           0       5.767  34.781  34.132                       C
+HETATM   49  H           0       5.883  35.829  33.952                       H
+HETATM   50  H           0       6.620  34.257  33.755                       H
+HETATM   51  H           0       4.885  34.430  33.636                       H
+HETATM   52  H           0       8.352  28.848  38.747                       H
+HETATM   53  H           0       8.373  30.578  37.040                       H
+END
+CONECT    1   38   20
+CONECT    2   38   52
+CONECT    3   53
+CONECT    6   20
+CONECT   10   48
+CONECT   11   20
+CONECT   12   40
+CONECT   13   20
+CONECT   17   39
+CONECT   18   20
+CONECT   20   11   13    6   18
+CONECT   20    1
+CONECT   38    1    2   44
+CONECT   39   17
+CONECT   40   41   42   43   12
+CONECT   41   40
+CONECT   42   40
+CONECT   43   40
+CONECT   44   45   46   47   38
+CONECT   45   44
+CONECT   46   44
+CONECT   47   44
+CONECT   48   49   50   51   10
+CONECT   49   48
+CONECT   50   48
+CONECT   51   48
+CONECT   52    2
+CONECT   53    3
